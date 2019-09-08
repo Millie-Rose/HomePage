@@ -16,6 +16,11 @@
 		<link rel="stylesheet" href='css/jquery.mCustomScrollbar.css'>
 		<link rel="stylesheet" href="css/style.css">
 		<meta charset="utf-8"/>
+		<meta Access-Control-Allow-Origin: *>
+    	<meta Access-Control-Allow-Headers: Content-Type>
+    	<meta Access-Control-Allow-Methods: POST, GET, OPTIONS>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	</head>
 	<body>
 		<section id="large-header">
@@ -59,7 +64,9 @@
 				</div>
 			</div>
 			<div id="weather-wrapper">
-				<div id="weather-board">
+				<div id="weather-board"><center>
+						<span id="data"></span>
+						<span id="weatherData"></span></center>
 				</div>
 			</div>
 		</section>
@@ -109,4 +116,23 @@
 	<script src="script/min/search.js"></script>
 	<script src="script/min/cff.js"></script>
 	<script src="script/app.js"></script>
+	<!--Location + Weather scripts-->
+	<script type="text/javascript">
+		$.ajax({
+			url: 'https://api.ipdata.co/?api-key=c875f714f864e2287195db120068285e7ed845f48a3eec34d85c0da2', 
+			dataType: 'jsonp',
+			success: function(dataFunc) {
+				$.ajax
+				data.innerHTML= dataFunc.ip + "<br>" +/* dataFunc.latitude + "<br>" + dataFunc.longitude + "<br>" +*/ dataFunc.city + ", " + dataFunc.region + ", " + dataFunc.postal + "<br>";
+			}}),
+		$.ajax({
+				url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
+				dataType: 'jsonp',
+				success: function(weather){
+				weatherData.innerHTML= "Current: " + weather.main.temp + "°" + "<br>" + "High: " + weather.main.temp_max + "°" + "<br>" + "Low: " + weather.main.temp_min + "°"; 
+					}
+				});
+				/*  Look up how to call results of dataFunc.ip(or anything else) in new script after dataFunc finishes */
+				/* data.innerHTML= dataFunc.ip + "<br>" + dataFunc.latitude + "<br>" + dataFunc.longitude + "<br>" + dataFunc.city + ", " + dataFunc.region_name + "<br>" + dataFunc.zip; */
+		</script>
 </html>

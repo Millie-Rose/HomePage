@@ -419,10 +419,10 @@ function initGreetings() {
 function initWeather() {
   locations.forEach(function(i, e) {
     $.simpleWeather({
-      zipcode: '',
+      zipcode: '04092',
       woeid: locations[e],
-      location: '',
-      unit: 'c',
+      location: 'Westbrook',
+      unit: 'f',
       success: function(weather) {
         var weatherObj = '<p class="weather" id="' + locations[e] + '">' +
           '<span class="weather-location"></span><br>' +
