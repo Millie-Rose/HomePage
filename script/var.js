@@ -1,38 +1,45 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Millie"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
-  "784201",
-  "784302"
+  "12759437",
+  "2412335"
 ];
 var images = [
-  "1412446496031.jpg",
-  "1417804954510.jpg",
-  "1422771896804.jpg",
-  "1424655132831.jpg",
-  "1425939966695.jpg",
-  "1429482830109.jpg",
-  "1429569823779.jpg",
-  "1437167260211.jpg",
-  "1437214448937.jpg",
-  "1437214448937.jpg",
-  "1444816416285.jpg",
-  "1444827390885.jpg",
-  "1444827771939.jpg",
-  "1445223016379.jpg",
-  "1445223050369.jpg",
-  "1445370353275.jpg",
-  "1445705808951.jpg",
-  "1445713184723.jpg",
-  "1448399280112.jpg",
-  "1450066383293.jpg",
-  "1450074394745.jpg"
+  "11.jpg",
+  "12.png",
+  "13.jpg",
+  "14.png",
+  "15.jpg",
+  "16.png",
+  "17.jpg",
+  "18.png",
+  "19.jpg",
+  "111.png",
+  "112.jpg",
+  "113.png",
+  "114.jpg",
+  "115.png",
+  "116.jpg",
+  "117.png",
+  "118.jpg",
+  "119.png",
+  "1111.jpg",
+  "1112.png",
+  "1113.jpg",
+  "1114.png",
+  "1115.jpg",
+  "1116.png",
+  "1117.jpg",
+  "1118.png",
+  "1119.jpg",
+  "11111.jpg",
 ];
 var searchs = [
-  ["!g", "https://www.google.ch/#q="],
+  ["!g", "https://www.google.com/#q="],
   ["!y", "https://www.youtube.com/results?search_query="],
   ["!w", "https://en.wikipedia.org/w/index.php?search="]
 ];
@@ -70,15 +77,15 @@ var favorites = [
   ],
   [ "4chan",
     [
-      ["/b/", "http://4chan.org/b/", "b"],
-      ["/wg/", "http://4chan.org/wg/", "wg"],
-      ["/g/", "http://4chan.org/g/", "g"]
+      ["/b/", "https://4chan.org/b/", "b"],
+      ["/wg/", "https://4chan.org/wg/", "wg"],
+      ["/g/", "https://4chan.org/g/", "g"]
     ]
   ],
   [ "Others",
     [
-      ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
+      ["hugelol", "https://hugelol.com", "hgl"],
+      ["hiddenlol", "https://hiddenlol.com", "hdl"]
     ]
   ]
 ];
