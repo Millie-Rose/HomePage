@@ -68,6 +68,7 @@
 			</div>
 			<div id="weather-wrapper">
 				<div id="weather-board"><center>
+						<span class="weather-title">Weather</span><br>
 						<span id="data"></span>
 						<span id="weatherData"></span></center>
 				</div>
@@ -76,13 +77,21 @@
 		<section class="mid-pannel">
 			<div id="search-wrapper">
 				<div id="search-board">
-					<p class="text">Search</p>
+					<p class="text">
+						<font style="size: 3em">
+						シーク</font>
+						<br>
+						Search</p>
 					<input type="text">
 				</div>
 			</div>
 			<div id="favorites-wrapper">
 				<div id="favorites-board">
-					<p class="text">Bookmarks</p>
+					<p class="text">
+						<font style="size: 3em">
+						ブック</font>
+						<br>
+						Bookmarks</p>
 					<div class="favorites">
 
 					</div>
@@ -135,7 +144,5 @@
 				weatherData.innerHTML= "Current: " + weather.main.temp + "°" + "<br>" + "High: " + weather.main.temp_max + "°" + "<br>" + "Low: " + weather.main.temp_min + "°"; 
 					}
 				});
-				/*  Look up how to call results of dataFunc.ip(or anything else) in new script after dataFunc finishes */
-				/* data.innerHTML= dataFunc.ip + "<br>" + dataFunc.latitude + "<br>" + dataFunc.longitude + "<br>" + dataFunc.city + ", " + dataFunc.region_name + "<br>" + dataFunc.zip; */
 		</script>
 </html>

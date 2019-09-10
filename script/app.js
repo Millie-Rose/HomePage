@@ -541,11 +541,11 @@ function initClock() {
   $(".date-year").html(yyyy);
 
   if (h < 12) {
-    $(".greetings-title").html("Good Morning");
+    $(".greetings-title").html("おはよう" + "<br>" + "Good Morning");
   } else if (h >= 12 && h < 19) {
-    $(".greetings-title").html("Good Afternoon");
+    $(".greetings-title").html("今日は" + "<br>" + "Good Afternoon");
   } else {
-    $(".greetings-title").html("Good Evening");
+    $(".greetings-title").html("こんばんは" + "<br>" + "Good Evening");
   }
 
   var t = setTimeout(initClock, 500);

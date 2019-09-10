@@ -65,57 +65,62 @@ var images = [
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
-  ["!y", "https://www.youtube.com/results?search_query="],
-  ["!w", "https://en.wikipedia.org/w/index.php?search="]
+  ["!dub", "https://isthisdubbed.com/media/deep/search?q="]
 ];
 var favorites = [
-  [ "Work",
-    [
-      ["cpnv" , "http://intranet.cpnv.ch/", "cpnv"],
-      ["github" , "https://github.com/", "gh"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
-      ["bitbucket" , "http://bitbucket.org", "bb"]
-    ]
-  ],
   [ "Social",
     [
-      ["whatsapp" , "https://web.whatsapp.com/", "wa"],
-      ["hangouts" , "http://hangouts.google.com", "hang"],
-      ["facebook" , "https://www.facebook.com/" , "fb"],
-      ["twitter" , "https://twitter.com/", "twi"]
+      ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
+      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
+      ["twitter" , "https://twitter.com/home", "twt"],
+      ["stm" , "https://steamcommunity.com/id/lewd-/home/", "stm"]
     ]
   ],
-  [ "Download",
+  [ "Shopping",
     [
-      ["thepiratebay", "http://thepiratebay.se", "tpb"],
-      ["T411", "http://www.t411.in/", "t411"]
+      ["amazon" , "https://smile.amazon.com/", "amz"],
+      ["ebay" , "https://www.ebay.com/", "bay"],
+      ["wish" , "https://www.wish.com/" , "wsh"],
+      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"]
     ]
   ],
-  [ "Reddit",
+  [ "Trackers",
     [
-      ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["LoL", "https://www.reddit.com/r/leagueoflegends/", "lol"],
-      ["4chan", "https://www.reddit.com/r/4chan/", "4ch"],
-      ["Monster Hunter", "https://www.reddit.com/r/MonsterHunter/", "mh"],
-      ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
+      ["animez", "https://animetorrents.me/", "at"],
+      ["pornbay", "https://pornbay.org/index.php", "pb"],
+      ["filelist", "https://filelist.ro/index.php", "fl"],
+      ["torrentleech", "https://www.torrentleech.org", "tl"],
+      ["privatehd", "https://privatehd.to/", "phd"],
+      ["sadpanda", "https://exhentai.org/", "sad"]
     ]
   ],
-  [ "4chan",
+  [ "Gaming",
     [
-      ["/b/", "https://4chan.org/b/", "b"],
-      ["/wg/", "https://4chan.org/wg/", "wg"],
-      ["/g/", "https://4chan.org/g/", "g"]
+      ["warframe.market", "https://warframe.market/", "wfm"],
+      ["warframe-builder", "http://warframe-builder.com/", "wfb"],
+      ["tennoware", "https://tennoware.com/", "wft"],
+      ["riven.market", "https://riven.market/", "rm"],
+      ["itad" , "https://isthereanydeal.com/", "itad"]
+    ]
+  ],
+  [ "Video",
+    [
+      ["plex", "https://app.plex.tv/desktop", "plex"],
+      ["myanimelist", "https://myanimelist.net/", "mal"],
+      ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
+      ["twitch", "https://www.twitch.tv/", "ttv"]
     ]
   ],
   [ "Others",
     [
-      ["hugelol", "https://hugelol.com", "hgl"],
-      ["hiddenlol", "https://hiddenlol.com", "hdl"]
+      ["photomosh", "https://photomosh.com/", "photo"],
+      ["deviantart", "https://www.deviantart.com/", "dva"],
+      ["waifu2x", "http://waifu2x.udp.jp/", "w2x"],
+      ["steamtradematcher", "https://www.steamtradematcher.com/", "sttm"]
     ]
   ]
 ];
 var feeds = [
-  ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
-  ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
+  ["Steam","http://www.steampowered.com/rss.xml"],
+  ["AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"]
 ];
