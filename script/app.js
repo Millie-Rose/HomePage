@@ -47,7 +47,7 @@ function init() {
 
 function initRss() {
   $(feeds).each(function(index, feed) {
-    $('#rss-board').append("<p style=font-size: 1.5em; letter-spacing: .3em;>"+feed[0]+"</p>");
+    $('#rss-board').append("<center><p style=font-size: 1.5em; letter-spacing: .3em;>"+feed[0]+"</p></center>");
     $('#rss-board').append("<div id='"+index+"'></div");
     $('#rss-board #'+index).FeedEk({
       FeedUrl: feed[1],
@@ -541,11 +541,11 @@ function initClock() {
   $(".date-year").html(yyyy);
 
   if (h < 12) {
-    $(".greetings-title").html("おはよう" + "<br>" + "Good Morning");
+    $(".greetings-title").html("<center>" + "おはよう" + "<br>" + "Good Morning" + "</center>");
   } else if (h >= 12 && h < 19) {
-    $(".greetings-title").html("今日は" + "<br>" + "Good Afternoon");
+    $(".greetings-title").html("<center>" + "今日は" + "<br>" + "Good Afternoon" + "</center>");
   } else {
-    $(".greetings-title").html("こんばんは" + "<br>" + "Good Evening");
+    $(".greetings-title").html("<center>" + "こんばんは" + "<br>" + "Good Evening" + "</center>");
   }
 
   var t = setTimeout(initClock, 500);
@@ -577,3 +577,18 @@ $(document).ready(function() {
 $(window).resize(function() {
   initSize();
 })
+
+// Bypass user tracking confirmation and gather info/weather based on location (im still pretty proud of myself for this one)
+$.ajax({
+  url: 'https://api.ipdata.co/?api-key=c875f714f864e2287195db120068285e7ed845f48a3eec34d85c0da2', 
+  dataType: 'jsonp',
+  success: function(dataFunc) {
+    data.innerHTML= dataFunc.ip + "<br>" + dataFunc.city + ", " + dataFunc.region + ", " + dataFunc.postal + "<br>";
+  }}),
+$.ajax({
+    url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
+    dataType: 'jsonp',
+    success: function(weather){
+    weatherData.innerHTML= "Current: " + weather.main.temp + "°" + "<br>" + "High: " + weather.main.temp_max + "°" + "<br>" + "Low: " + weather.main.temp_min + "°"; 
+      }
+    });
