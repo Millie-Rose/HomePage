@@ -47,11 +47,11 @@ function init() {
 
 function initRss() {
   $(feeds).each(function(index, feed) {
-    $('#rss-board').append("<p>"+feed[0]+"</p>");
+    $('#rss-board').append("<p style=font-size: 1.5em; letter-spacing: .3em;>"+feed[0]+"</p>");
     $('#rss-board').append("<div id='"+index+"'></div");
     $('#rss-board #'+index).FeedEk({
       FeedUrl: feed[1],
-      MaxCount: 5,
+      MaxCount: 4,
       DateFormat: 'L',
       DateFormatLang:'en'
       });
