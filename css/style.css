@@ -13,13 +13,13 @@ body:after {
     clear: both
 }
 
-@font-face {
+/* @font-face {
     font-family: 'weather';
     src: url('../fonts/artill_clean_icons-webfont.eot');
     src: url('../fonts/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/artill_clean_icons-webfont.woff') format('woff'), url('../fonts/artill_clean_icons-webfont.ttf') format('truetype'), url('../fonts/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
     font-weight: normal;
     font-style: normal
-}
+} */
 
 body {
     height: 100%;
@@ -567,7 +567,7 @@ section.right-pannel {
     border-bottom: rgba(52, 73, 94, 0.9) 1px solid */
 }
 
-#weather-board p {
+/* #weather-board p {
     padding: 10px 0;
     text-transform: uppercase;
     letter-spacing: .3em
@@ -597,9 +597,9 @@ section.right-pannel {
     font-weight: normal;
     font-style: normal;
     line-height: 1
-}
+} */
 
-#weather-board i.icon-0:before {
+/* #weather-board i.icon-0:before {
     content: ":"
 }
 
@@ -789,7 +789,7 @@ section.right-pannel {
 
 #weather-board i.icon-47:before {
     content: "S"
-}
+} */
 
 #terminal-wrapper {
     height: auto;

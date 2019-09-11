@@ -23,7 +23,7 @@ function init() {
 
   // Call of all the function init of each components and size adapter
   initGreetings();
-  initWeather();
+  /*initWeather();*/
   initTimeLines();
   initTerminal();
   initSearch();
@@ -416,7 +416,7 @@ function initGreetings() {
 }
 
 // Init the weather part and add the weather options
-function initWeather() {
+/* function initWeather() {
   locations.forEach(function(i, e) {
     $.simpleWeather({
       zipcode: '04092',
@@ -442,7 +442,7 @@ function initWeather() {
       }
     });
   });
-}
+} */
 
 // Animations initialization
 function initTimeLines() {
