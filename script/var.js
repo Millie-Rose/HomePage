@@ -65,10 +65,10 @@ var images = [
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
-  ["!dub", "https://isthisdubbed.com/media/deep/search?q="]
+  ["!d", "https://isthisdubbed.com/media/deep/search?q="]
 ];
 var favorites = [
-  [ "Social",
+  [ "しゃかいてき"+"<br>"+"Social",
     [
       ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
       ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
@@ -76,15 +76,14 @@ var favorites = [
       ["stm" , "https://steamcommunity.com/id/lewd-/home/", "stm"]
     ]
   ],
-  [ "Shopping",
+  [ "ショッピング"+"<br>"+"Shopping",
     [
       ["amazon" , "https://smile.amazon.com/", "amz"],
       ["ebay" , "https://www.ebay.com/", "bay"],
-      ["wish" , "https://www.wish.com/" , "wsh"],
-      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"]
+      ["wish" , "https://www.wish.com/" , "wsh"]
     ]
   ],
-  [ "Trackers",
+  [ "トラッカー"+"<br>"+"Trackers",
     [
       ["animez", "https://animetorrents.me/", "at"],
       ["pornbay", "https://pornbay.org/index.php", "pb"],
@@ -94,7 +93,7 @@ var favorites = [
       ["sadpanda", "https://exhentai.org/", "sad"]
     ]
   ],
-  [ "Gaming",
+  [ "ゲーミング"+"<br>"+"Gaming",
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
       ["warframe-builder", "http://warframe-builder.com/", "wfb"],
@@ -103,7 +102,7 @@ var favorites = [
       ["itad" , "https://isthereanydeal.com/", "itad"]
     ]
   ],
-  [ "Video",
+  [ "ビデオ"+"<br>"+"Video",
     [
       ["plex", "https://app.plex.tv/desktop", "plex"],
       ["myanimelist", "https://myanimelist.net/", "mal"],
@@ -111,16 +110,17 @@ var favorites = [
       ["twitch", "https://www.twitch.tv/", "ttv"]
     ]
   ],
-  [ "Others",
+  [ "その他"+"<br>"+"Others",
     [
       ["photomosh", "https://photomosh.com/", "photo"],
       ["deviantart", "https://www.deviantart.com/", "dva"],
       ["waifu2x", "http://waifu2x.udp.jp/", "w2x"],
-      ["steamtradematcher", "https://www.steamtradematcher.com/", "sttm"]
+      ["steamtradematcher", "https://www.steamtradematcher.com/", "sttm"],
+      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"]
     ]
   ]
 ];
 var feeds = [
-  ["Steam","http://www.steampowered.com/rss.xml"],
-  ["AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"]
+  ["スチーム"+"<br>"+"Steam","http://www.steampowered.com/rss.xml"],
+  ["アニメダブ"+"<br>"+"AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"]
 ];

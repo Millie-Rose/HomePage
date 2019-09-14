@@ -583,12 +583,12 @@ $.ajax({
   url: 'https://api.ipdata.co/?api-key=c875f714f864e2287195db120068285e7ed845f48a3eec34d85c0da2', 
   dataType: 'jsonp',
   success: function(dataFunc) {
-    data.innerHTML= dataFunc.ip + "<br>" + dataFunc.city + ", " + dataFunc.region + ", " + dataFunc.postal + "<br>";
+    data.innerHTML= dataFunc.ip + "<br>" + "<br>" + dataFunc.city + ", " + dataFunc.region + ", " + dataFunc.postal + "<br>" + "<br>";
   }}),
 $.ajax({
     url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
     dataType: 'jsonp',
     success: function(weather){
-    weatherData.innerHTML= "Current: " + weather.main.temp + "°" + "<br>" + "High: " + weather.main.temp_max + "°" + "<br>" + "Low: " + weather.main.temp_min + "°"; 
+    weatherData.innerHTML= "CURRENT: " + weather.main.temp + "°" + "<br>" + "<br>" + "HIGH: " + weather.main.temp_max + "°" + "<br>" + "<br>" + "LOW: " + weather.main.temp_min + "°"; 
       }
     });
