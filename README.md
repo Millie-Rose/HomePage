@@ -1,3 +1,5 @@
-#homepage
-#I really needed a new one
-#Shoutout to Cel51
+New homepage, learned a lot since the last one and needed something fresh and cleaner. 
+
+Another personal project to keep evolving my style and refining my language skills.
+
+Shoutout to Cel51 for the bones of the project. Thanks for sharing.
