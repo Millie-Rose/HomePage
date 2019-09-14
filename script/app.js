@@ -523,15 +523,17 @@ function initClock() {
   var yyyy = today.getFullYear();
 
   if (dd < 10)
-    dd = '0' + dd
+    dd = '0' + dd;
   if (mm < 10)
-    mm = '0' + mm
+    mm = '0' + mm;
   if (h < 10)
-    h = '0' + h
+    h = '0' + h;
+  if (h > 12)
+    h = h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
   if (m < 10)
-    m = '0' + m
+    m = '0' + m;
   if (s < 10)
-    s = '0' + s
+    s = '0' + s;
 
   $(".time-hours").html(h);
   $(".time-minutes").html(m);

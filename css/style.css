@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    *zoom: 1
+    *zoom: 1;
 }
 
 body:before,
@@ -195,7 +195,8 @@ section.right-pannel {
 
 .terminal,
 .cmd {
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
+    font-family: 'Orbitron', sans-serif !important;
+    /*font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;*/
     color: rgba(236, 240, 241, 0.9);
     background-color: transparent;
     font-size: 14px;
@@ -982,7 +983,7 @@ section.right-pannel {
 }
 
 #favorites-board .favorites {
-    *zoom: 1
+    *zoom: 1;
 }
 
 #favorites-board .favorites:before,
@@ -1173,7 +1174,8 @@ section.right-pannel {
 
 #rss-wrapper #rss-board div .feedEkList .itemTitle a {
     text-decoration: none;
-    color: rgba(236, 240, 241, 0.9)
+    color: rgba(236, 240, 241, 0.9);
+    font-size: .99em;
 }
 
 #rss-wrapper #rss-board div .feedEkList .itemDate {
