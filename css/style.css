@@ -1126,9 +1126,9 @@ section.right-pannel {
 }
 
 #search-board input {
-    background-color: rgba(225, 99, 236, 0.4);
-    color: rgba(255, 174, 255, 0.9);
-    border: 1px solid rgba(122, 58, 175, 0.9);
+    background-color: rgba(172, 94, 184, 0.4);
+    color: rgba(255, 255, 255, 0.795);
+    border: 1px solid rgba(158, 82, 170, 0.4);
     width: 100%;
     padding: 2px 5px;
     outline: none

@@ -531,6 +531,8 @@ function initClock() {
     h = '0' + h;
   if (h > 12)
     h = '0' + h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
+  if (h == '00')
+    h = '12';
   if (m < 10)
     m = '0' + m;
   if (s < 10)
