@@ -516,6 +516,7 @@ function initTimeLines() {
 function initClock() {
   var today = new Date();
   var h = today.getHours();
+  var tfh = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
   var dd = today.getDate();
@@ -529,22 +530,25 @@ function initClock() {
   if (h < 10)
     h = '0' + h;
   if (h > 12)
-    h = h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
+    h = '0' + h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
   if (m < 10)
     m = '0' + m;
   if (s < 10)
     s = '0' + s;
+  if (tfh < 10)
+    tfh = '0' + tfh;
 
   $(".time-hours").html(h);
+  $(".24h").html(tfh);
   $(".time-minutes").html(m);
   $(".time-seconds").html(s);
   $(".date-day").html(dd);
   $(".date-month").html(mm);
   $(".date-year").html(yyyy);
 
-  if (h < 12) {
+  if (tfh < 12) {
     $(".greetings-title").html("<center>" + "おはよう" + "<br>" + "Good Morning" + "</center>");
-  } else if (h >= 12 && h < 19) {
+  } else if (tfh >= 12 && tfh < 19) {
     $(".greetings-title").html("<center>" + "今日は" + "<br>" + "Good Afternoon" + "</center>");
   } else {
     $(".greetings-title").html("<center>" + "こんばんは" + "<br>" + "Good Evening" + "</center>");
@@ -572,7 +576,7 @@ $(document).ready(function() {
   init();
   setTimeout(function() {
     initSize();
-  }, 2500)
+  }, 2500);
 });
 
 // For each resize

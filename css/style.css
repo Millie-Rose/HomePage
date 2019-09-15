@@ -38,7 +38,7 @@ body #large-header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important
+    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
 }
 
 section.left-pannel {
@@ -195,7 +195,7 @@ section.right-pannel {
 
 .terminal,
 .cmd {
-    font-family: 'Orbitron', sans-serif !important;
+    font-family: 'Anonymous Pro', monospace !important;
     /*font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;*/
     color: rgba(236, 240, 241, 0.9);
     background-color: transparent;
@@ -208,7 +208,8 @@ section.right-pannel {
 }
 
 .terminal .terminal-output div span {
-    display: inline-block
+    font-family: 'Anonymous Pro', monospace !important;
+    display: inline-block;
 }
 
 .cmd span {
@@ -227,23 +228,25 @@ section.right-pannel {
 .terminal h4,
 .terminal h5,
 .terminal h6 {
+    font-family: 'Anonymous Pro', monospace !important;
     -webkit-touch-callout: initial;
     -webkit-user-select: initial;
     -khtml-user-select: initial;
     -moz-user-select: initial;
     -ms-user-select: initial;
-    user-select: initial
+    user-select: initial;
 }
 
 .terminal,
 .terminal-output,
 .terminal-output div {
+    font-family: 'Anonymous Pro', monospace !important;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 @-moz-document url-prefix() {
@@ -251,12 +254,13 @@ section.right-pannel {
     .terminal,
     .terminal-output,
     .terminal-output div {
+        font-family: 'Orbitron', sans-serif !important;
         -webkit-touch-callout: initial;
         -webkit-user-select: initial;
         -khtml-user-select: initial;
         -moz-user-select: initial;
         -ms-user-select: initial;
-        user-select: initial
+        user-select: initial;
     }
 }
 
@@ -457,7 +461,7 @@ section.right-pannel {
 }
 
 #greetings-wrapper:after {
-    clear: both
+    clear: both;
 }
 
 #greetings-board {
@@ -469,7 +473,7 @@ section.right-pannel {
     color: rgba(236, 240, 241, 0.9);
     background: rgba(170, 108, 179, 0.6);
     border-top: rgba(122, 58, 175, 0.9) 1px solid;
-    border-bottom: rgba(122, 58, 175, 0.9) 1px solid
+    border-bottom: rgba(122, 58, 175, 0.9) 1px solid;
     /*background: rgba(17, 17, 17, 0.5);
     border-top: rgba(52, 73, 94, 0.9) 1px solid;
     border-bottom: rgba(52, 73, 94, 0.9) 1px solid*/
@@ -479,33 +483,34 @@ section.right-pannel {
     text-transform: uppercase;
     letter-spacing: .3em;
     padding: 10px 0;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important
+    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
 }
 
 #greetings-board p.greetings-helloworld {
     color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
-    font-size: 1.2em
+    font-size: 1.2em;
 }
 
 #greetings-board p.greetings-helloworld .greetings-title {
-    color: rgba(236, 240, 241, 0.9);
+    color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
 }
 
 #greetings-board p.greetings-helloworld .greetings-name {
     color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
+    font-size: 1em !important;
 }
 
 #greetings-board p.greetings-time {
     color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
-    font-size: 1em
+    font-size: 1em !important;
 }
 
 #greetings-board p.greetings-time .time-title {
-    /*color: rgba(236, 240, 241, 0.9)*/
+    /*color: rgba(127, 140, 141, 0.9)*/
     mix-blend-mode: color-dodge !important;
 }
 
@@ -519,11 +524,11 @@ section.right-pannel {
 #greetings-board p.greetings-date {
     color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
-    font-size: 1em
+    font-size: 1em !important;
 }
 
 #greetings-board p.greetings-date .date-title {
-    color: rgba(236, 240, 241, 0.9);
+    color: rgba(127, 140, 141, 0.9);
     mix-blend-mode: color-dodge !important;
 }
 
@@ -798,20 +803,22 @@ section.right-pannel {
     width: 101.04166667%;
     margin: 0 -0.52083333%;
     *zoom: 1;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-family: 'Anonymous Pro', monospace !important;
 }
 
 #terminal-wrapper:before,
 #terminal-wrapper:after {
     content: "";
-    display: table
+    display: table;
 }
 
 #terminal-wrapper:after {
-    clear: both
+    clear: both;
 }
 
 #terminal-board {
+    font-family: 'Anonymous Pro', monospace !important;
     display: inline;
     float: left;
     width: 98.95833333%;
@@ -819,51 +826,57 @@ section.right-pannel {
     color: rgba(236, 240, 241, 0.9);
     background: rgba(170, 108, 179, 0.6);
     border-top: rgba(122, 58, 175, 0.9) 1px solid;
-    border-bottom: rgba(122, 58, 175, 0.9) 1px solid
+    border-bottom: rgba(122, 58, 175, 0.9) 1px solid;
     /* background: rgba(17, 17, 17, 0.5);
     border-top: rgba(52, 73, 94, 0.9) 1px solid;
     border-bottom: rgba(52, 73, 94, 0.9) 1px solid */
 }
 
 #terminal-board .terminals {
+    font-family: 'Anonymous Pro', monospace !important;
     display: inline;
     float: left;
     width: 98.95833333%;
     margin: 0 .52083333%;
-    padding: 10px
+    padding: 10px;
 }
 
 #terminal-board .terminal-term {
     visibility: hidden;
-    display: none
+    display: none;
+    font-family: 'Anonymous Pro', monospace !important;
 }
 
 #terminal-board .terminal-term .terminal {
-    height: 300px
+    height: 300px;
+    font-family: 'Anonymous Pro', monospace !important;
 }
 
 #terminal-board .terminal-term.active {
     visibility: visible;
-    display: block
+    display: block;
+    font-family: 'Anonymous Pro', monospace !important;
 }
 
 #terminal-board #tabs {
+    font-family: 'Anonymous Pro', monospace !important;
     display: inline;
     float: left;
     width: 98.95833333%;
     margin: 0 .52083333%;
-    border-bottom: rgba(122, 58, 175, 0.9) 1px solid
+    border-bottom: rgba(122, 58, 175, 0.9) 1px solid;
 }
 
 #terminal-board #tabs span {
+    font-family: 'Anonymous Pro', monospace !important;
     display: inline-block;
     padding: 5px 10px;
     color: rgba(122, 58, 175, 0.9);
-    cursor: pointer
+    cursor: pointer;
 }
 
 #terminal-board #tabs span.active {
-    color: rgba(236, 240, 241, 0.9)
+    color: rgba(236, 240, 241, 0.9);
 }
 
 #informations-wrapper {
@@ -872,7 +885,7 @@ section.right-pannel {
     width: 101.04166667%;
     margin: 0 -0.52083333%;
     *zoom: 1;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 #informations-wrapper:before,
