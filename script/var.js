@@ -90,7 +90,8 @@ var favorites = [
       ["filelist", "https://filelist.ro/index.php", "fl"],
       ["torrentleech", "https://www.torrentleech.org", "tl"],
       ["privatehd", "https://privatehd.to/", "phd"],
-      ["sadpanda", "https://exhentai.org/", "sad"]
+      ["blutopia", "https://blutopia.xyz/", "blu"],
+      ["sadpanda", "https://e-hentai.org/", "sad"]
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
