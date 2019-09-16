@@ -80,7 +80,8 @@ var favorites = [
     [
       ["amazon" , "https://smile.amazon.com/", "amz"],
       ["ebay" , "https://www.ebay.com/", "bay"],
-      ["wish" , "https://www.wish.com/" , "wsh"]
+      ["wish" , "https://www.wish.com/" , "wsh"],
+      ["aliexpress" , "https://www.aliexpress.com/" , "ali"]
     ]
   ],
   [ "トラッカー"+"<br>"+"Trackers",
