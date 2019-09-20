@@ -73,7 +73,8 @@ var favorites = [
       ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
       ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["twitter" , "https://twitter.com/home", "twt"],
-      ["stm" , "https://steamcommunity.com/id/lewd-/home/", "stm"]
+      ["stm" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
+      ["rdt" , "https://www.reddit.com/", "rdt"]
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",

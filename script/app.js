@@ -13,6 +13,54 @@ function init() {
 
   // Background managment with the plugin backstretch
   // Get 1 images from the var.js array of images for the background
+/* For future testing of time based random backgrounds
+  function initBackground() {
+  var today = new Date();
+  var h = today.getHours();
+  var tfh = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  var dd = today.getDate();
+  var mm = today.getMonth() + 1; //January is 0!
+  var yyyy = today.getFullYear();
+
+  if (dd < 10)
+    dd = '0' + dd;
+  if (mm < 10)
+    mm = '0' + mm;
+  if (h < 10)
+    h = '0' + h;
+  if (h > 12)
+    h = '0' + h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
+  if (h == '00')
+    h = '12';
+  if (m < 10)
+    m = '0' + m;
+  if (s < 10)
+    s = '0' + s;
+  if (tfh < 10)
+    tfh = '0' + tfh;
+
+//  $(".time-hours").html(h);
+//  $(".24h").html(tfh);
+//  $(".time-minutes").html(m);
+//  $(".time-seconds").html(s);
+//  $(".date-day").html(dd);
+//  $(".date-month").html(mm);
+//  $(".date-year").html(yyyy);
+
+  if (tfh < 12) {
+    $("body").backstretch("images/morning/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
+  } else if (tfh >= 12 && tfh < 19) {
+    $("body").backstretch("images/afternoon/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
+  } else {
+    $("body").backstretch("images/night/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
+  }
+
+  var bg = setTimeout(initBackground, 500);
+}*/
+
+
   $("body").backstretch("images/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
 
   // Scroll managment for each pannel (smarter screen and after insert of multiple cff informations)
