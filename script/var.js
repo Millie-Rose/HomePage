@@ -65,7 +65,8 @@ var images = [
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
-  ["!d", "https://isthisdubbed.com/media/deep/search?q="]
+  ["!d", "https://isthisdubbed.com/media/deep/search?q="],
+  ["!u", "https://"]
 ];
 var favorites = [
   [ "しゃかいてき"+"<br>"+"Social",
