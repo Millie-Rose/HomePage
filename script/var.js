@@ -41,7 +41,7 @@ var images = [
   "30.png",
   "31.png",
   "32.png",
-  "33.png",
+/*   "33.png",
   "34.png",
   "35.png",
   "36.png",
@@ -61,7 +61,7 @@ var images = [
   "50.png",
   "51.png",
   "52.png",
-  "53.png",
+  "53.png", */
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
