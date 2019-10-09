@@ -2,12 +2,6 @@
 // Their name are explicit
 
 var username = "Millie";
-var clientid = "be212a58528168962a39c64052c1d88e";
-var redirecturi = "http://localhost:8002/callback.html";
-var locations = [
-  "12759437",
-  "2412335"
-];
 var images = [
   "01.png",
   "02.png",
