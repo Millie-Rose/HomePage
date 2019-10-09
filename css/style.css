@@ -39,11 +39,11 @@ body #large-header {
     margin: 0;
     padding: 0;
     font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
-    --main-box-bg-color: rgba(36, 16, 35, 0.6); /* Default alpha 0.6 */
+    --main-box-bg-color: rgba(36, 16, 35, 0.8); /* Default alpha 0.6 */
     --main-box-border-color: rgba(40, 196, 20, 0.9); /* Default alpha 0.9 */
     --main-text-color: rgba(162, 73, 54, 0.9); /* Default alpha 0.9 */
     --bookmark-quickcode-color: rgb(40, 196, 20);
-    --main-text-blend-mode: color-dodge ; /* Default "color-dodge" */
+    --main-text-blend-mode: normal ; /* Default "color-dodge" */
 }
 
 section.left-pannel {
@@ -53,7 +53,7 @@ section.left-pannel {
     margin: 0 .52083333%;
     margin-top: 10px;
     min-height: 1px;
-    height: auto
+    height: auto;
 }
 
 section.mid-pannel {
@@ -396,7 +396,7 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
@@ -490,35 +490,41 @@ section.right-pannel {
     text-transform: uppercase;
     letter-spacing: .3em;
     padding: 10px 0;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    /* font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important; */
 }
 
 #greetings-board p.greetings-helloworld {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
     font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-helloworld .greetings-title {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-helloworld .greetings-name {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
     font-size: 1em !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-time {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
     font-size: 1em !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-time .time-title {
     /*color: rgba(127, 140, 141, 0.9)*/
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-time .time-hours,
@@ -526,17 +532,20 @@ section.right-pannel {
 #greetings-board p.greetings-time .time-seconds {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-date {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
     font-size: 1em !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-date .date-title {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #greetings-board p.greetings-date .date-day,
@@ -544,6 +553,7 @@ section.right-pannel {
 #greetings-board p.greetings-date .date-year {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #weather-wrapper {
@@ -633,7 +643,7 @@ section.right-pannel {
 }
 
 #terminal-board .terminal-term .terminal {
-    height: 300px;
+    height: 75px;
     font-family: 'Anonymous Pro', monospace !important;
 }
 
@@ -906,7 +916,8 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
+    font-family: 'Open Sans', sans-serif !important;
+    /*font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;*/
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
