@@ -9,53 +9,6 @@ function init() {
 
   // Background managment with the plugin backstretch
   // Get 1 images from the var.js array of images for the background
-/* For future testing of time based random backgrounds
-  function initBackground() {
-  var today = new Date();
-  var h = today.getHours();
-  var tfh = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  var dd = today.getDate();
-  var mm = today.getMonth() + 1; //January is 0!
-  var yyyy = today.getFullYear();
-
-  if (dd < 10)
-    dd = '0' + dd;
-  if (mm < 10)
-    mm = '0' + mm;
-  if (h < 10)
-    h = '0' + h;
-  if (h > 12)
-    h = '0' + h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
-  if (h == '00')
-    h = '12';
-  if (m < 10)
-    m = '0' + m;
-  if (s < 10)
-    s = '0' + s;
-  if (tfh < 10)
-    tfh = '0' + tfh;
-
-//  $(".time-hours").html(h);
-//  $(".24h").html(tfh);
-//  $(".time-minutes").html(m);
-//  $(".time-seconds").html(s);
-//  $(".date-day").html(dd);
-//  $(".date-month").html(mm);
-//  $(".date-year").html(yyyy);
-
-  if (tfh < 12) {
-    $("body").backstretch("images/morning/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
-  } else if (tfh >= 12 && tfh < 19) {
-    $("body").backstretch("images/afternoon/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
-  } else {
-    $("body").backstretch("images/night/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
-  }
-
-  var bg = setTimeout(initBackground, 500);
-}*/
-
 
   $("body").backstretch("images/Spoopy/"+images[Math.round(Math.random()*(images.length-1))],{fade: 300});
 
@@ -67,7 +20,6 @@ function init() {
 
   // Call of all the function init of each components and size adapter
   initGreetings();
-  /*initWeather();*/
   initTimeLines();
   initTerminal();
   initSearch();
@@ -141,35 +93,6 @@ function initGreetings() {
 
   initClock();
 }
-
-// Init the weather part and add the weather options
-/* function initWeather() {
-  locations.forEach(function(i, e) {
-    $.simpleWeather({
-      zipcode: '04092',
-      woeid: locations[e],
-      location: 'Westbrook',
-      unit: 'f',
-      success: function(weather) {
-        var weatherObj = '<p class="weather" id="' + locations[e] + '">' +
-          '<span class="weather-location"></span><br>' +
-          '<span class="weather-icon"></span>' +
-          '<span class="weather-temperature"></span> <br>' +
-          '<span class="weather-description"></span>' +
-          '</p>';
-
-        $("#weather-board").append(weatherObj);
-        $("#" + locations[e] + " .weather-location").html(weather.city + ", " + weather.region);
-        $("#" + locations[e] + " .weather-icon").html('<i class="icon-' + weather.code + '"></i>');
-        $("#" + locations[e] + " .weather-temperature").html(weather.temp + '&deg;' + weather.units.temp);
-        $("#" + locations[e] + " .weather-description").html(weather.currently);
-      },
-      error: function(error) {
-        $("#" + locations[e] + "").html('<p>' + error + '</p>');
-      }
-    });
-  });
-} */
 
 // Animations initialization
 function initTimeLines() {
@@ -257,7 +180,7 @@ function initClock() {
   if (h < 10)
     h = '0' + h;
   if (h > 12)
-    h = '0' + h - 12; //converting to 12 hour is a bitch for some odd reason. might need fix
+    h = '0' + h - 12; //stupid clock making me do math to get 12h format.
   if (h == '00')
     h = '12';
   if (m < 10)
@@ -324,6 +247,9 @@ $.ajax({
     url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
     dataType: 'jsonp',
     success: function(weather){
-    weatherData.innerHTML= "CURRENT: " + weather.main.temp + "°" + "<br>" + "<br>" + "HIGH: " + weather.main.temp_max + "°" + "<br>" + "<br>" + "LOW: " + weather.main.temp_min + "°"; 
+      $(".weather-current").html(weather.main.temp);
+      $(".weather-max").html(weather.main.temp_max);
+      $(".weather-min").html(weather.main.temp_min);
+    // weatherData.innerHTML= "きおん" + "<br>" + "NOW" + "<br>" + weather.main.temp + "°" + "<br>" + "<br>" + "こうおん" + "<br>" + "HIGH" + "<br>" + weather.main.temp_max + "°" + "<br>" + "<br>" + "ていおん" + "<br>" + "LOW" + "<br>" + weather.main.temp_min + "°" + "<br>"; 
       }
     });
