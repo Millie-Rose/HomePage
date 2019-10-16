@@ -723,6 +723,7 @@ section.right-pannel {
     display: inline;
     float: left;
     width: 98.95833333%;
+    height: 539px !important; /* Jesus Christ doot is picky af */
     margin: 0 .52083333%;
     color: var(--main-text-color);
     padding: 10px;
