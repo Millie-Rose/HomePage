@@ -68,8 +68,8 @@ var favorites = [
       ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
       ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["twitter" , "https://twitter.com/home", "twt"],
-      ["stm" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
-      ["rdt" , "https://www.reddit.com/", "rdt"]
+      ["steam" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
+      ["reddit" , "https://www.reddit.com/", "rdt"]
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",
@@ -97,7 +97,7 @@ var favorites = [
       ["warframe-builder", "http://warframe-builder.com/", "wfb"],
       ["tennoware", "https://tennoware.com/", "wft"],
       ["riven.market", "https://riven.market/", "rm"],
-      ["itad" , "https://isthereanydeal.com/", "itad"]
+      ["isthereanydeal" , "https://isthereanydeal.com/", "itad"]
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -110,7 +110,6 @@ var favorites = [
   ],
   [ "その他"+"<br>"+"Others",
     [
-      ["photomosh", "https://photomosh.com/", "photo"],
       ["deviantart", "https://www.deviantart.com/", "dva"],
       ["waifu2x", "http://waifu2x.udp.jp/", "w2x"],
       ["steamtradematcher", "https://www.steamtradematcher.com/", "sttm"],

@@ -1,7 +1,14 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>Home</title>
+		<title> うち-Home </title>
+		<!-- <script type="text/javascript"> //Scrolling titlebar animation//add onload="titleMarquee()" to body element open// 
+		var titleText = document.title;
+		function titleMarquee() {
+			titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
+			document.title = titleText;
+			setTimeout("titleMarquee()", 450);
+		}</script> -->
 		<script src="script/min/jquery-1.11.3.min.js"></script>
 		<script src="script/min/TweenMax.min.js"></script>
 		<script src="script/min/jquery.backstretch.min.js"></script>
@@ -31,7 +38,7 @@
 						<span id="homepage" style="font-size:1em;font-family:Noto+Sans+JP !important;">
 						ホームページ</span>
 						<br>
-						Homepage
+						🌸Homepage🌸
 					</div>
 					<div class="image">
 						<img src="resources/logo.png" alt="ミリー" onclick="window.open('https://millie.moe:2083/', '_blank');"/>
@@ -67,7 +74,7 @@
 					</p>
 					<p class="greetings-weather">
 						<span class="japanese-weather" style="font-size:19px;font-family:Noto+Sans+JP;letter-spacing:5.76px !important;">てんき</span><br>
-						<span class="weather-title">Temp</span><br>
+						<span class="weather-title" onclick="window.open('https://weather.com/weather/hourbyhour/l/e252f3769086e8e625b87179714128bff53b45e56a7da8960346fc882319322c', '_blank');">Temp</span><br>
 						<span class="weather-current"></span>°<br>
 						<span class="weather-min"></span>° - 
 						<span class="weather-max"></span>°
@@ -82,7 +89,7 @@
 						<span id="japanese-search" style="font-size:1em;font-family:Noto+Sans+JP !important;">
 						シーク</span>
 						<br>
-						Search</p>
+						🎃Search🎃</p>
 					<input type="text">
 				</div>
 			</div>
@@ -92,7 +99,7 @@
 						<span id="japanese-book" style="font-size:1em;font-family:Noto+Sans+JP !important;">
 						ブック</span>
 						<br>
-						Bookmarks</p>
+						👻Bookmarks👻</p>
 					<div class="favorites">
 
 					</div>
