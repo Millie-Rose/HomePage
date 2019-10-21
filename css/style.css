@@ -30,12 +30,17 @@ body #large-header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
+    /*font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;*/
+    font-family: 'Open Sans', sans-serif !important;
+    /* font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Anonymous Pro', monospace; 
+    font-family: 'Noto Sans JP', sans-serif;*/
     --main-box-bg-color: rgba(36, 16, 35, 0.8); /* Default alpha 0.6 */
     --main-box-border-color: rgba(40, 196, 20, 0.9); /* Default alpha 0.9 */
     --main-text-color: rgba(162, 73, 54, 0.9); /* Default alpha 0.9 */
     --bookmark-quickcode-color: rgb(40, 196, 20);
-    --main-text-blend-mode: normal ; /* Default "color-dodge" */
+    --main-text-blend-mode: color-dodge ; /* Default "color-dodge" */
 }
 
 section.left-pannel {
@@ -192,7 +197,7 @@ section.right-pannel {
 
 .terminal,
 .cmd {
-    font-family: 'Anonymous Pro', monospace !important;
+    font-family: 'Orbitron', sans-serif !important;
     color: var(--main-text-color);
     background-color: transparent;
     font-size: 14px;
@@ -204,7 +209,7 @@ section.right-pannel {
 }
 
 .terminal .terminal-output div span {
-    font-family: 'Anonymous Pro', monospace !important;
+    font-family: 'Orbitron', sans-serif !important;
     display: inline-block;
 }
 
@@ -224,7 +229,7 @@ section.right-pannel {
 .terminal h4,
 .terminal h5,
 .terminal h6 {
-    font-family: 'Anonymous Pro', monospace !important;
+    font-family: 'Orbitron', sans-serif !important;
     -webkit-touch-callout: initial;
     -webkit-user-select: initial;
     -khtml-user-select: initial;
@@ -236,7 +241,7 @@ section.right-pannel {
 .terminal,
 .terminal-output,
 .terminal-output div {
-    font-family: 'Anonymous Pro', monospace !important;
+    font-family: 'Orbitron', sans-serif !important;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -379,6 +384,7 @@ section.right-pannel {
 }
 
 #main-board .text {
+    font-family: 'Noto Sans JP', sans-serif !important;
     padding: 10px 0;
     text-align: center;
     text-transform: uppercase;
@@ -424,19 +430,19 @@ section.right-pannel {
 }
 
 #main-board .square.s1 {
-    background-color: rgba(255, 255, 255, 0.192)
+    background-color: rgba(196, 193, 193, 0.027)
 }
 
 #main-board .square.s2 {
-    background-color: rgba(0, 0, 0, 0.356)
+    background-color: rgba(0, 0, 0, 0.075)
 }
 
 #main-board .square.s3 {
-    background-color: rgba(255, 255, 255, 0.151)
+    background-color: rgba(255, 255, 255, 0.034)
 }
 
 #main-board .square.s4 {
-    background-color: rgba(0, 0, 0, 0.281)
+    background-color: rgba(0, 0, 0, 0.055)
 }
 
 #greetings-wrapper {
@@ -474,7 +480,6 @@ section.right-pannel {
     text-transform: uppercase;
     letter-spacing: .3em;
     padding: 10px 0;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
 }
 
 #greetings-board p.greetings-helloworld {
@@ -515,7 +520,6 @@ section.right-pannel {
     color: var(--main-text-color);
     mix-blend-mode: var(--main-text-blend-mode) !important;
     font-size: 1em !important;
-    /* font-family: 'Open Sans', sans-serif !important; */
 }
 
 #greetings-board p.greetings-date .date-title {
@@ -588,23 +592,27 @@ section.right-pannel {
     width: 98.95833333%;
     margin: 0 .52083333%;
     padding: 10px;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board .terminal-term {
     visibility: hidden;
     display: none;
     font-family: 'Anonymous Pro', monospace !important;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board .terminal-term .terminal {
     height: 69.5px;
     font-family: 'Anonymous Pro', monospace !important;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board .terminal-term.active {
     visibility: visible;
     display: block;
     font-family: 'Anonymous Pro', monospace !important;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board #tabs {
@@ -614,6 +622,7 @@ section.right-pannel {
     width: 98.95833333%;
     margin: 0 .52083333%;
     border-bottom: var(--main-box-border-color) 1px solid;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board #tabs span {
@@ -622,83 +631,14 @@ section.right-pannel {
     padding: 5px 10px;
     color: rgba(122, 58, 175, 0.9);
     cursor: pointer;
+    mix-blend-mode: var(--main-text-blend-mode);
 }
 
 #terminal-board #tabs span.active {
     color: var(--main-text-color);
 }
 
-#informations-wrapper {
-    height: auto;
-    display: block;
-    width: 101.04166667%;
-    margin: 0 -0.52083333%;
-    *zoom: 1;
-    margin-bottom: 10px;
-}
 
-#informations-wrapper:before,
-#informations-wrapper:after {
-    content: "";
-    display: table
-}
-
-#informations-wrapper:after {
-    clear: both
-}
-
-#informations-board .informations {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin: 0 .52083333%;
-    color: var(--main-text-color);
-    padding: 10px;
-    background: rgba(17, 17, 17, 0.5);
-    border-bottom: var(--main-box-border-color) 1px solid
-}
-
-#informations-board .informations:first-child {
-    border-top: var(--main-box-border-color) 1px solid
-}
-
-#informations-board .informations.cff .travels {
-    padding: 10px
-}
-
-#informations-board .informations.cff .travels p.title {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    letter-spacing: .3em
-}
-
-#informations-board .informations.cff .travels .travel {
-    margin: 10px 0
-}
-
-#informations-board .informations.cff .travels .travel div.sections p.title {
-    margin-top: 5px;
-    font-size: .9em;
-    text-transform: uppercase;
-    letter-spacing: .3em
-}
-
-#informations-board .informations.cff .travels .travel div.title {
-    text-transform: uppercase;
-    letter-spacing: .3em;
-    color: #bdc0c1
-}
-
-#informations-board .informations.cff .travels .travel div.time,
-#informations-board .informations.cff .travels .travel div.journey,
-#informations-board .informations.cff .travels .travel div.platform,
-#informations-board .informations.cff .travels .travel div.location {
-    display: inline;
-    float: left;
-    width: 23.95833333%;
-    margin: 0 .52083333%;
-    margin: 10px 0
-}
 
 #favorites-wrapper {
     height: auto;
@@ -738,7 +678,6 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
@@ -781,7 +720,6 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
@@ -865,7 +803,6 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1.5em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
@@ -914,7 +851,6 @@ section.right-pannel {
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: .3em;
-    font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;
     mix-blend-mode: var(--main-text-blend-mode);
 }
 

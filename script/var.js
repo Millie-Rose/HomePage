@@ -1,7 +1,8 @@
 // All the variable for the app
-// Their name are explicit
+// Their names are explicit
 
 var username = "Millie";
+var kanji = "ミリー";
 var images = [
   "01.png",
   "02.png",

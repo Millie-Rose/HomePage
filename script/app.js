@@ -74,8 +74,6 @@ function initTerminal() {
       this.echo("\n");
       this.error("f <shortcut>"); this.echo("open the favorites in a new tab"); this.echo("\n");
       this.error("main"); this.echo("goto main terminal"); this.echo("\n");
-/*       this.error("sc"); this.echo("goto soundcloud terminal"); this.echo("\n");
-      this.error("cff"); this.echo("goto cff terminal"); this.echo("\n"); */
       this.echo("\n");
     }
   }, {
@@ -89,7 +87,7 @@ function initTerminal() {
 
 // Set the username and call the clock function for the greetings
 function initGreetings() {
-  $(".greetings-helloworld .greetings-name").html(username);
+  $(".greetings-helloworld .greetings-name").html(kanji+'<br>'+username);
 
   initClock();
 }
@@ -236,12 +234,15 @@ $(window).resize(function() {
   initSize();
 })
 
-// Bypass user tracking confirmation and gather info/weather based on location (im still pretty proud of myself for this one)
+// Bypass user tracking confirmation and gather info based on location (im still pretty proud of myself for this one)
 $.ajax({
   url: 'https://api.ipdata.co/?api-key=c875f714f864e2287195db120068285e7ed845f48a3eec34d85c0da2', 
   dataType: 'jsonp',
   success: function(dataFunc) {
-    data.innerHTML= dataFunc.ip + "<br>" + "<br>" + dataFunc.city + ", " + dataFunc.region + ", " + dataFunc.postal + "<br>" + "<br>";
+    $(".data-ip").html(dataFunc.ip);
+    $(".data-city").html(dataFunc.city);
+    $(".data-region").html(dataFunc.region);
+    $(".data-postal").html(dataFunc.postal);
   }}),
 $.ajax({
     url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
@@ -250,6 +251,5 @@ $.ajax({
       $(".weather-current").html(weather.main.temp);
       $(".weather-max").html(weather.main.temp_max);
       $(".weather-min").html(weather.main.temp_min);
-    // weatherData.innerHTML= "きおん" + "<br>" + "NOW" + "<br>" + weather.main.temp + "°" + "<br>" + "<br>" + "こうおん" + "<br>" + "HIGH" + "<br>" + weather.main.temp_max + "°" + "<br>" + "<br>" + "ていおん" + "<br>" + "LOW" + "<br>" + weather.main.temp_min + "°" + "<br>"; 
       }
     });

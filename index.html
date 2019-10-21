@@ -1,14 +1,7 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title> うち-Home </title>
-		<!-- <script type="text/javascript"> //Scrolling titlebar animation//add onload="titleMarquee()" to body element open// 
-		var titleText = document.title;
-		function titleMarquee() {
-			titleText = titleText.substring(1, titleText.length) + titleText.substring(0, 1);
-			document.title = titleText;
-			setTimeout("titleMarquee()", 450);
-		}</script> -->
+		<title> うち </title>
 		<script src="script/min/jquery-1.11.3.min.js"></script>
 		<script src="script/min/TweenMax.min.js"></script>
 		<script src="script/min/jquery.backstretch.min.js"></script>
@@ -16,11 +9,11 @@
 		<script src="script/min/jquery.terminal-0.9.3.js"></script>
 		<script src="script/min/jquery.mCustomScrollbar.min.js"></script>
 		<script src="script/min/FeedEk.js" charset="utf-8"></script>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Orbitron|Roboto|Anonymous+Pro:700|Noto+Sans+JP&display=swap&subset=japanese" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Open+Sans:400|Orbitron|Roboto&display=swap&subset=japanese" rel="stylesheet">
 		<link rel="stylesheet" href='css/jquery.mCustomScrollbar.css'>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" type="image/gif" href="resources/ghost.png">
-		<meta charset="utf-8"/>
+		<meta charset="UTF-8"/>
 		<meta Access-Control-Allow-Origin: *>
     	<meta Access-Control-Allow-Headers: Content-Type>
     	<meta Access-Control-Allow-Methods: POST, GET, OPTIONS>
@@ -35,13 +28,11 @@
 			<div id="main-wrapper">
 				<div id="main-board">
 					<div class="text">
-						<span id="homepage" style="font-size:1em;font-family:Noto+Sans+JP !important;">
-						ホームページ</span>
-						<br>
-						🌸Homepage🌸
+						<span id="homepage">
+						ホームページ<br>🌸Homepage🌸</span>
 					</div>
 					<div class="image">
-						<img src="resources/logo.png" alt="ミリー" onclick="window.open('https://millie.moe:2083/', '_blank');"/>
+						<img src="resources/logo.png" style="-webkit-filter: invert(100%) opacity(30%);" alt="ミリー" onclick="window.open('https://millie.moe:2083/', '_blank');"/>
 					</div>
 					<div class="squares">
 						<div class="square s1"></div>
@@ -55,26 +46,22 @@
 				<div id="greetings-board">
 					<p class="greetings-helloworld">
 						<span class="greetings-title"></span><br>
-						<span class="japanese-name" style="font-size:19px;font-family:Noto+Sans+JP;letter-spacing:5.76px !important;">ミリー</span><br>
 						<span class="greetings-name"></span>
 					</p>
 					<p class="greetings-time">
-						<span class="japanese-time" style="font-size:19px;font-family:Noto+Sans+JP;letter-spacing:5.76px !important;">クロック</span><br>
-						<span class="time-title">Time</span><br>
+						<span class="time-title">クロック<br>Time</span><br>
 						<span class="time-hours"></span> :
 						<span class="time-minutes"></span> :
 						<span class="time-seconds"></span><br>
 					</p>
 					<p class="greetings-date">
-						<span class="japanese-date" style="font-size:19px;font-family:Noto+Sans+JP;letter-spacing:5.76px !important;">ひづけ</span><br>
-						<span class="date-title">Date</span><br>
+						<span class="date-title">ひづけ<br>Date</span><br>
 						<span class="date-month"></span> .
 						<span class="date-day"></span> .
 						<span class="date-year"></span>
 					</p>
 					<p class="greetings-weather">
-						<span class="japanese-weather" style="font-size:19px;font-family:Noto+Sans+JP;letter-spacing:5.76px !important;">てんき</span><br>
-						<span class="weather-title" onclick="window.open('https://weather.com/weather/hourbyhour/l/e252f3769086e8e625b87179714128bff53b45e56a7da8960346fc882319322c', '_blank');">Temp</span><br>
+						<span class="weather-title" onclick="window.open('https://weather.com/weather/hourbyhour/l/e252f3769086e8e625b87179714128bff53b45e56a7da8960346fc882319322c', '_blank');">てんき<br>Temp</span><br>
 						<span class="weather-current"></span>°<br>
 						<span class="weather-min"></span>° - 
 						<span class="weather-max"></span>°
@@ -86,22 +73,15 @@
 			<div id="search-wrapper">
 				<div id="search-board">
 					<p class="text">
-						<span id="japanese-search" style="font-size:1em;font-family:Noto+Sans+JP !important;">
-						シーク</span>
-						<br>
-						🎃Search🎃</p>
+						シーク<br>🎃Search🎃</p>
 					<input type="text">
 				</div>
 			</div>
 			<div id="favorites-wrapper">
 				<div id="favorites-board">
 					<p class="text">
-						<span id="japanese-book" style="font-size:1em;font-family:Noto+Sans+JP !important;">
-						ブック</span>
-						<br>
-						👻Bookmarks👻</p>
+						ブック<br>👻Bookmarks👻</p>
 					<div class="favorites">
-
 					</div>
 				</div>
 			</div>
@@ -114,8 +94,7 @@
 			<div id="terminal-wrapper">
 				<div id="terminal-board">
 					<div id="tabs">
-						<span id="Japanese-main" style="font-size:inherit;color:inherit;font-family:Noto+Sans+JP !important;">メイン</span>
-						<span id="main" class="t-tab active"> Main</span>
+						<span id="main" class="t-tab active"> メイン  Main</span>
 					</div>
 					<div class="terminals">
 						<div class="terminal-term active main">
