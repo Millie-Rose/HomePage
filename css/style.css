@@ -1,3 +1,16 @@
+/* @font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+    unicode-range: U+000-5FF;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans JP', sans-serif;
+    src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
+    unicode-range: U+4E00-U+U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F, ;
+} */
+
 body {
     width: 100%;
     *zoom: 1;
@@ -30,17 +43,16 @@ body #large-header {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*font-family: Roboto Light, Verdana, Tahoma, Arial, Helvetica, sans-serif !important;*/
-    font-family: 'Open Sans', sans-serif !important;
-    /* font-family: 'Orbitron', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Anonymous Pro', monospace; 
-    font-family: 'Noto Sans JP', sans-serif;*/
+    font-family: 'Noto Sans JP', sans-serif;
     --main-box-bg-color: rgba(36, 16, 35, 0.8); /* Default alpha 0.6 */
     --main-box-border-color: rgba(40, 196, 20, 0.9); /* Default alpha 0.9 */
     --main-text-color: rgba(162, 73, 54, 0.9); /* Default alpha 0.9 */
     --bookmark-quickcode-color: rgb(40, 196, 20);
-    --main-text-blend-mode: color-dodge ; /* Default "color-dodge" */
+    --main-text-blend-mode: normal ; /* Default "color-dodge" */
 }
 
 section.left-pannel {
@@ -384,7 +396,6 @@ section.right-pannel {
 }
 
 #main-board .text {
-    font-family: 'Noto Sans JP', sans-serif !important;
     padding: 10px 0;
     text-align: center;
     text-transform: uppercase;
@@ -746,6 +757,7 @@ section.right-pannel {
     color: var(--bookmark-quickcode-color);
     text-decoration: none;
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #favorites-board .favorites .favorite ul span.link,
@@ -764,6 +776,7 @@ section.right-pannel {
     overflow: hidden;
     text-overflow: ellipsis;
     mix-blend-mode: var(--main-text-blend-mode) !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 #search-wrapper {
