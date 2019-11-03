@@ -48,10 +48,10 @@ body #large-header {
     font-family: 'Roboto', sans-serif;
     font-family: 'Anonymous Pro', monospace; 
     font-family: 'Noto Sans JP', sans-serif;
-    --main-box-bg-color: rgba(36, 16, 35, 0.8); /* Default alpha 0.6 */
-    --main-box-border-color: rgba(40, 196, 20, 0.9); /* Default alpha 0.9 */
-    --main-text-color: rgba(162, 73, 54, 0.9); /* Default alpha 0.9 */
-    --bookmark-quickcode-color: rgb(40, 196, 20);
+    --main-box-bg-color: rgba(0, 0, 0, 0.644); /* Default alpha 0.6 */
+    --main-box-border-color: rgba(156, 71, 173, 0.555); /* Default alpha 0.9 */
+    --main-text-color: rgba(192, 148, 112, 0.945); /* Default alpha 0.9 */
+    --bookmark-quickcode-color: rgb(95, 57, 131);
     --main-text-blend-mode: normal ; /* Default "color-dodge" */
 }
 
