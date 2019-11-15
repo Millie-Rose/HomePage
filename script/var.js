@@ -67,6 +67,17 @@ var images = [
   "61.png",
   "62.png",
   "63.png",
+  "64.png",
+  "65.png",
+  "66.png",
+  "67.png",
+  "68.png",
+  "69.png",
+  "70.png",
+  "71.png",
+  "72.png",
+  "73.png",
+  "74.png",
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
