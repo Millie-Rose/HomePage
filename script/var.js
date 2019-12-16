@@ -88,7 +88,6 @@ var favorites = [
   [ "しゃかいてき"+"<br>"+"Social",
     [
       ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
-      ["gmail" , "https://mail.google.com/mail/u/0/#inbox", "gm"],
       ["twitter" , "https://twitter.com/home", "twt"],
       ["steam" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
       ["reddit" , "https://www.reddit.com/", "rdt"]
@@ -99,7 +98,8 @@ var favorites = [
       ["amazon" , "https://smile.amazon.com/", "amz"],
       ["ebay" , "https://www.ebay.com/", "bay"],
       ["wish" , "https://www.wish.com/" , "wsh"],
-      ["aliexpress" , "https://www.aliexpress.com/" , "ali"]
+      ["aliexpress" , "https://www.aliexpress.com/" , "ali"],
+      ["isthereanydeal" , "https://isthereanydeal.com/", "itd"]
     ]
   ],
   [ "トラッカー"+"<br>"+"Trackers",
@@ -109,17 +109,13 @@ var favorites = [
       ["filelist", "https://filelist.ro/index.php", "fl"],
       ["torrentleech", "https://www.torrentleech.org", "tl"],
       ["privatehd", "https://privatehd.to/", "phd"],
-      ["blutopia", "https://blutopia.xyz/", "blu"],
-      ["sadpanda", "https://e-hentai.org/", "sad"]
+      ["blutopia", "https://blutopia.xyz/", "blu"]
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
-      ["warframe-builder", "http://warframe-builder.com/", "wfb"],
-      ["tennoware", "https://tennoware.com/", "wft"],
-      ["riven.market", "https://riven.market/", "rm"],
-      ["isthereanydeal" , "https://isthereanydeal.com/", "itad"]
+      ["Light.gg", "https://www.light.gg/", "gg"]
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -127,15 +123,15 @@ var favorites = [
       ["plex", "https://app.plex.tv/desktop", "plex"],
       ["myanimelist", "https://myanimelist.net/", "mal"],
       ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
-      ["twitch", "https://www.twitch.tv/", "ttv"]
+      ["twitch", "https://www.twitch.tv/", "tv"]
     ]
   ],
   [ "その他"+"<br>"+"Others",
     [
-      ["deviantart", "https://www.deviantart.com/", "dva"],
-      ["waifu2x", "http://waifu2x.udp.jp/", "w2x"],
-      ["steamtradematcher", "https://www.steamtradematcher.com/", "sttm"],
-      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"]
+      ["steamtradematcher", "https://www.steamtradematcher.com/", "sm"],
+      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
+      ["sadpanda", "https://e-hentai.org/", "sad"],
+      ["paste", "https://wutsdis.com/paste/", "pst"]
     ]
   ]
 ];
