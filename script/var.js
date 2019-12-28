@@ -115,7 +115,11 @@ var favorites = [
   [ "ゲーミング"+"<br>"+"Gaming",
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
-      ["Light.gg", "https://www.light.gg/", "gg"]
+      ["Light.gg", "https://www.light.gg/", "gg"],
+      ["Stardew Profits", "https://thorinair.github.io/Stardew-Profits/", "sdp"],
+      ["Stardew Predictor", "https://mouseypounds.github.io/stardew-predictor/", "sdo"],
+      ["Stardew Checkup", "https://mouseypounds.github.io/stardew-checkup/", "sdc"],
+      ["Stardew Finder", "https://stardew.djomp.co.uk/", "sdf"]
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
