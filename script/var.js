@@ -116,10 +116,15 @@ var favorites = [
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
       ["Light.gg", "https://www.light.gg/", "gg"],
-      ["Stardew Profits", "https://thorinair.github.io/Stardew-Profits/", "sdp"],
+      ["steamtradematcher", "https://www.steamtradematcher.com/", "stmtm"],
+      ["steamtools", "https://steam.madjoki.com/", "stmt"],
+      ["nexus", "https://www.nexusmods.com/", "nexus"],
+      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "astat"],
+      //Stardew Valley
+/*       ["Stardew Profits", "https://thorinair.github.io/Stardew-Profits/", "sdp"],
       ["Stardew Predictor", "https://mouseypounds.github.io/stardew-predictor/", "sdo"],
       ["Stardew Checkup", "https://mouseypounds.github.io/stardew-checkup/", "sdc"],
-      ["Stardew Finder", "https://stardew.djomp.co.uk/", "sdf"]
+      ["Stardew Finder", "https://stardew.djomp.co.uk/", "sdf"] */
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -132,7 +137,6 @@ var favorites = [
   ],
   [ "その他"+"<br>"+"Others",
     [
-      ["steamtradematcher", "https://www.steamtradematcher.com/", "sm"],
       ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
       ["sadpanda", "https://e-hentai.org/", "sad"],
       ["paste", "https://wutsdis.com/paste/", "pst"]
@@ -140,6 +144,7 @@ var favorites = [
   ]
 ];
 var feeds = [
-  ["スチーム"+"<br>"+"Steam","http://www.steampowered.com/rss.xml"],
-  ["アニメダブ"+"<br>"+"AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"]
+  ["セイル"+"<br>"+"Deals","https://isthereanydeal.com/rss/specials/us/.rss"],
+  ["アニメダブ"+"<br>"+"AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"],
+  ["スチーム"+"<br>"+"Steam","http://www.steampowered.com/rss.xml"]
 ];
