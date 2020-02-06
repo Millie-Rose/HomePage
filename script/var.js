@@ -116,10 +116,10 @@ var favorites = [
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
       ["Light.gg", "https://www.light.gg/", "gg"],
-      ["steamtradematcher", "https://www.steamtradematcher.com/", "stmtm"],
-      ["steamtools", "https://steam.madjoki.com/", "stmt"],
-      ["nexus", "https://www.nexusmods.com/", "nexus"],
-      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "astat"],
+      ["steamtradematcher", "https://www.steamtradematcher.com/", "sm"],
+      ["steamtools", "https://steam.madjoki.com/", "stto"],
+      ["nexus", "https://www.nexusmods.com/", "nxs"],
+      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
       //Stardew Valley
 /*       ["Stardew Profits", "https://thorinair.github.io/Stardew-Profits/", "sdp"],
       ["Stardew Predictor", "https://mouseypounds.github.io/stardew-predictor/", "sdo"],
