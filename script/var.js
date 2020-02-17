@@ -116,7 +116,7 @@ var favorites = [
     [
       ["warframe.market", "https://warframe.market/", "wfm"],
       ["Light.gg", "https://www.light.gg/", "gg"],
-      ["steamtradematcher", "https://www.steamtradematcher.com/", "sm"],
+      ["steammatch", "https://www.steamtradematcher.com/", "sm"],
       ["steamtools", "https://steam.madjoki.com/", "stto"],
       ["nexus", "https://www.nexusmods.com/", "nxs"],
       ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
@@ -129,7 +129,7 @@ var favorites = [
   ],
   [ "ビデオ"+"<br>"+"Video",
     [
-      ["plex", "https://app.plex.tv/desktop", "plex"],
+      ["plex", "https://app.plex.tv/desktop", "plx"],
       ["myanimelist", "https://myanimelist.net/", "mal"],
       ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
       ["twitch", "https://www.twitch.tv/", "tv"]
@@ -144,7 +144,8 @@ var favorites = [
   ]
 ];
 var feeds = [
-  ["セイル"+"<br>"+"Deals","https://isthereanydeal.com/rss/specials/us/.rss"],
+  ["セイル"+"<br>"+"Deals","https://slickdeals.net/newsearch.php?mode=popdeals&searcharea=deals&searchin=first&rss=1"],
+  [" ゲーム セイル"+"<br>"+"Game Deals","https://isthereanydeal.com/rss/specials/us/.rss"],
   ["アニメダブ"+"<br>"+"AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"],
   ["スチーム"+"<br>"+"Steam","http://www.steampowered.com/rss.xml"]
 ];
