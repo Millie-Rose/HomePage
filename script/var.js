@@ -90,7 +90,8 @@ var favorites = [
       ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
       ["twitter" , "https://twitter.com/home", "twt"],
       ["steam" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
-      ["reddit" , "https://www.reddit.com/", "rdt"]
+      ["reddit" , "https://www.reddit.com/", "rdt"],
+      ["gmail" , "https://www.mail.google.com/", "gml"]
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",
@@ -114,17 +115,10 @@ var favorites = [
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
     [
-      ["warframe.market", "https://warframe.market/", "wfm"],
-      ["Light.gg", "https://www.light.gg/", "gg"],
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
       ["steamtools", "https://steam.madjoki.com/", "stto"],
       ["nexus", "https://www.nexusmods.com/", "nxs"],
       ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
-      //Stardew Valley
-/*       ["Stardew Profits", "https://thorinair.github.io/Stardew-Profits/", "sdp"],
-      ["Stardew Predictor", "https://mouseypounds.github.io/stardew-predictor/", "sdo"],
-      ["Stardew Checkup", "https://mouseypounds.github.io/stardew-checkup/", "sdc"],
-      ["Stardew Finder", "https://stardew.djomp.co.uk/", "sdf"] */
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
