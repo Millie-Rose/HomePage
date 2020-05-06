@@ -91,7 +91,7 @@ var favorites = [
       ["twitter" , "https://twitter.com/home", "twt"],
       ["steam" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
       ["reddit" , "https://www.reddit.com/", "rdt"],
-      ["gmail" , "https://www.mail.google.com/", "gml"]
+      ["gmail" , "https://mail.google.com/", "gml"]
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",
