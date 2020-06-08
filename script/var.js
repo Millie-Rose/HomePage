@@ -86,7 +86,9 @@ var favorites = [
       ["filelist", "https://filelist.ro/index.php", "fl"],
       ["torrentleech", "https://www.torrentleech.org", "tl"],
       ["privatehd", "https://privatehd.to/", "phd"],
-      ["blutopia", "https://blutopia.xyz/", "blu"]
+      ["blutopia", "https://blutopia.xyz/", "blu"],
+      ["DxDHD", "https://dxdhd.com/", "dxd"],
+      ["DigitalCore", "https://digitalcore.club/", "digc"]
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
@@ -109,7 +111,8 @@ var favorites = [
     [
       ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
       ["sadpanda", "https://e-hentai.org/", "sad"],
-      ["paste", "https://wutsdis.com/paste/", "pst"]
+      ["paste", "https://wutsdis.com/paste/", "pst"],
+      ["github", "https://github.com/", "git"],
     ]
   ]
 ];
