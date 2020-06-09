@@ -242,7 +242,7 @@ section.right-pannel {
 .terminal h5,
 .terminal h6 {
     font-family: 'Orbitron', sans-serif !important;
-    -webkit-touch-callout: initial;
+/*     -webkit-touch-callout: initial; */
     -webkit-user-select: initial;
     -khtml-user-select: initial;
     -moz-user-select: initial;
@@ -254,7 +254,7 @@ section.right-pannel {
 .terminal-output,
 .terminal-output div {
     font-family: 'Orbitron', sans-serif !important;
-    -webkit-touch-callout: none;
+/*     -webkit-touch-callout: none; */
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -262,20 +262,20 @@ section.right-pannel {
     user-select: none;
 }
 
-@-moz-document url-prefix() {
+/* @-moz-document url-prefix() {
 
     .terminal,
     .terminal-output,
     .terminal-output div {
         font-family: 'Orbitron', sans-serif !important;
-        -webkit-touch-callout: initial;
+/*         -webkit-touch-callout: initial;
         -webkit-user-select: initial;
         -khtml-user-select: initial;
         -moz-user-select: initial;
         -ms-user-select: initial;
         user-select: initial;
     }
-}
+} */
 
 .terminal table {
     border-collapse: collapse
@@ -828,65 +828,3 @@ section.right-pannel {
     outline: none
 }
 
-#rss-wrapper {
-    height: auto;
-    display: block;
-    width: 101.04166667%;
-    margin: 0 -0.52083333%;
-    *zoom: 1;
-    margin-bottom: 10px
-}
-
-#rss-wrapper:before,
-#rss-wrapper:after {
-    content: "";
-    display: table
-}
-
-#rss-wrapper:after {
-    clear: both
-}
-
-#rss-wrapper #rss-board {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin: 0 .52083333%;
-    color: var(--main-text-color);
-    padding: 10px;
-    background: var(--main-box-bg-color);
-    border-top: var(--main-box-border-color) 1px solid;
-    border-bottom: var(--main-box-border-color) 1px solid;
-}
-
-#rss-wrapper #rss-board p {
-    padding: 10px 0;
-    text-transform: uppercase;
-    font-size: 1em;
-    letter-spacing: .3em;
-    mix-blend-mode: var(--main-text-blend-mode);
-}
-
-#rss-wrapper #rss-board div .feedEkList li {
-    padding: 10px 0;
-    display: inline-block;
-    width: 100%;
-    white-space: wrap;
-    overflow: hidden;
-    text-overflow: ellipsis
-}
-
-#rss-wrapper #rss-board div .feedEkList .itemTitle a {
-    text-decoration: none;
-    color: var(--main-text-color);
-    font-size: .99em;
-    mix-blend-mode: var(--main-text-blend-mode);
-}
-
-#rss-wrapper #rss-board div .feedEkList .itemDate {
-    display: none
-}
-
-#rss-wrapper #rss-board div .feedEkList .itemContent {
-    display: none
-}

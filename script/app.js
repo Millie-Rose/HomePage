@@ -24,7 +24,6 @@ function init() {
   initTerminal();
   initSearch();
   initFavorites();
-  initRss();
   initSize();
 
   // Play the loading animation
@@ -39,19 +38,6 @@ function init() {
   // setTimeout(function() {
   //
   // }, 1210);
-}
-
-function initRss() {
-  $(feeds).each(function(index, feed) {
-    $('#rss-board').append("<center><p style=font-size: 1.5em; letter-spacing: .3em;>"+feed[0]+"</p></center>");
-    $('#rss-board').append("<div id='"+index+"'></div");
-    $('#rss-board #'+index).FeedEk({
-      FeedUrl: feed[1],
-      MaxCount: 4,
-      DateFormat: 'L',
-      DateFormatLang:'en'
-      });
-  });
 }
 
 // Terminal initialisation
@@ -152,10 +138,6 @@ function initTimeLines() {
       autoAlpha: 0,
       marginLeft: "-20"
     }, "#2")
-    .from($("#rss-board"), .2, {
-      autoAlpha: 0,
-      marginLeft: "-20"
-    })
     .timeScale(1.2)
     .pause();
 }

@@ -116,9 +116,4 @@ var favorites = [
     ]
   ]
 ];
-var feeds = [
-  ["セイル"+"<br>"+"Deals","https://slickdeals.net/newsearch.php?mode=popdeals&searcharea=deals&searchin=first&rss=1"],
-  [" ゲーム セイル"+"<br>"+"Game Deals","https://isthereanydeal.com/rss/specials/us/.rss"],
-  ["アニメダブ"+"<br>"+"AnimeDubs", "https://www.reddit.com/r/Animedubs/.rss"],
-  ["スチーム"+"<br>"+"Steam","http://www.steampowered.com/rss.xml"]
-];
+
