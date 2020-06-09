@@ -8,8 +8,8 @@ function initFavorites() {
       '<ul>'+
       $(group[1]).each(function(index, favorite) {
         element += "<li>"+
-                      "<span class='short'><a target='_blank' href='"+favorite[1]+"'>"+favorite[2]+"</a></span>"+
-                      "<span class='link'><a target='_blank' href='"+favorite[1]+"'>"+favorite[0]+"</a></span>"+
+                      "<span class='short'><a target='_blank' rel='noopener' href='"+favorite[1]+"'>"+favorite[2]+"</a></span>"+
+                      "<span class='link'><a target='_blank' rel='noopener' href='"+favorite[1]+"'>"+favorite[0]+"</a></span>"+
                     "</li>";
       })
     element += '' +
