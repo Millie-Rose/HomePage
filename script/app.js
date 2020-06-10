@@ -1,7 +1,7 @@
 // TimeLine variable for the storage of each timeline
 var tlLoading, tlDisplay;
 // Terminals variable for the focus
-var mainT;
+/* var mainT; */
 
 
 // Init function called at the end of the loading of each components
@@ -50,7 +50,7 @@ function initTerminal() {
         for(var j = 0; j < favorites[i][1].length; j++) {
           if(arg1 == favorites[i][1][j][2]) {
             var win = window.open(favorites[i][1][j][1], '_blank');
-            win.focus();
+            /* win.focus(); */
           }
         }
       }
@@ -68,7 +68,7 @@ function initTerminal() {
     height: 0,
     prompt: username + '@homepage:~$ '
   });
-  mainT.focus();
+//  mainT.focus();
 }
 
 // Set the username and call the clock function for the greetings
@@ -80,7 +80,7 @@ function initGreetings() {
 
 // Animations initialization
 function initTimeLines() {
-  tlLoading = new TimelineMax({
+  tlLoading = gsap.timeline({
       repeat: -1
     })
     .from($(".s1"), .4, {
@@ -97,7 +97,7 @@ function initTimeLines() {
     }, "#1")
     .pause();
 
-  tlDisplay = new TimelineMax()
+  tlDisplay = gsap.timeline()
     .to($(".squares"), .2, {
       autoAlpha: 0
     })
@@ -217,7 +217,7 @@ $(window).resize(function() {
 })
 
 // Bypass user tracking confirmation and gather info based on location (im still pretty proud of myself for this one)
-$.ajax({
+/* $.ajax({
   url: 'https://api.ipdata.co/?api-key=c875f714f864e2287195db120068285e7ed845f48a3eec34d85c0da2', 
   dataType: 'jsonp',
   success: function(dataFunc) {
@@ -234,4 +234,4 @@ $.ajax({
       $(".weather-max").html(weather.main.temp_max);
       $(".weather-min").html(weather.main.temp_min);
       }
-    });
+    }); */
