@@ -96,7 +96,7 @@ var favorites = [
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
       ["steamtools", "https://steam.madjoki.com/", "stto"],
       ["nexus", "https://www.nexusmods.com/", "nxs"],
-      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
+      ["bmbf", "192.168.1.60:50000/", "bmbf"]
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -112,7 +112,9 @@ var favorites = [
       ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
       ["sadpanda", "https://e-hentai.org/", "sad"],
       ["paste", "https://wutsdis.com/paste/", "pst"],
+      ["files", "https://files.millie.moe/", "file"],
       ["github", "https://github.com/", "git"],
+      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
     ]
   ]
 ];
