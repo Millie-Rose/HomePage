@@ -225,13 +225,13 @@ $(window).resize(function() {
     $(".data-city").html(dataFunc.city);
     $(".data-region").html(dataFunc.region);
     $(".data-postal").html(dataFunc.postal);
-  }}),
+  }}),*/
 $.ajax({
-    url: 'https://api.openweathermap.org/data/2.5/weather?id=524901&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
+    url: 'https://api.openweathermap.org/data/2.5/weather?id=4982753&APPID=be7e1695d105aa34ce4df0beaf64aca2&units=imperial',
     dataType: 'jsonp',
     success: function(weather){
       $(".weather-current").html(weather.main.temp);
       $(".weather-max").html(weather.main.temp_max);
       $(".weather-min").html(weather.main.temp_min);
       }
-    }); */
+    });

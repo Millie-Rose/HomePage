@@ -57,7 +57,7 @@ var images = [
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
-  ["!d", "https://isthisdubbed.com/media/deep/search?q="],
+  ["!d", "https://duckduckgo.com/?q="],
   ["!u", "https://"]
 ];
 var favorites = [
@@ -83,7 +83,6 @@ var favorites = [
     [
       ["animez", "https://animetorrents.me/", "at"],
       ["pornbay", "https://pornbay.org/index.php", "pb"],
-      ["filelist", "https://filelist.ro/index.php", "fl"],
       ["torrentleech", "https://www.torrentleech.org", "tl"],
       ["privatehd", "https://privatehd.to/", "phd"],
       ["blutopia", "https://blutopia.xyz/", "blu"],
@@ -93,10 +92,9 @@ var favorites = [
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
     [
+      ["bmbf", "192.168.1.60:50000/", "bmbf"],
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
-      ["steamtools", "https://steam.madjoki.com/", "stto"],
-      ["nexus", "https://www.nexusmods.com/", "nxs"],
-      ["bmbf", "192.168.1.60:50000/", "bmbf"]
+      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -104,17 +102,15 @@ var favorites = [
       ["plex", "https://app.plex.tv/desktop", "plx"],
       ["myanimelist", "https://myanimelist.net/", "mal"],
       ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
-      ["twitch", "https://www.twitch.tv/", "tv"]
     ]
   ],
   [ "その他"+"<br>"+"Others",
     [
+      ["files", "https://files.millie.moe/", "file"],
       ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
       ["sadpanda", "https://e-hentai.org/", "sad"],
       ["paste", "https://wutsdis.com/paste/", "pst"],
-      ["files", "https://files.millie.moe/", "file"],
       ["github", "https://github.com/", "git"],
-      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
     ]
   ]
 ];
