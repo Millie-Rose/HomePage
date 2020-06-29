@@ -40,6 +40,11 @@ function init() {
   // }, 1210);
 }
 
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'css/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
 // Terminal initialisation
 function initTerminal() {
   // Init the terminal with each function available
