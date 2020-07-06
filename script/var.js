@@ -69,7 +69,7 @@ var images = [
 var searchs = [
   ["!g", "https://www.google.com/#q="],
   ["!d", "https://duckduckgo.com/?q="],
-  ["!u", "https://"]
+  ["!u", "https://"],
 ];
 var favorites = [
   [ "しゃかいてき"+"<br>"+"Social",
@@ -106,6 +106,7 @@ var favorites = [
       ["bmbf", "192.168.1.60:50000/", "bmbf"],
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
       ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
+      ["darksoft", "https://forum.darksoftware.net/forums/", "dks"]
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
