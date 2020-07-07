@@ -97,8 +97,8 @@ var favorites = [
       ["torrentleech", "https://www.torrentleech.org", "tl"],
       ["privatehd", "https://privatehd.to/", "phd"],
       ["blutopia", "https://blutopia.xyz/", "blu"],
-      ["DxDHD", "https://dxdhd.com/", "dxd"],
-      ["DigitalCore", "https://digitalcore.club/", "digc"]
+      ["dxdhd", "https://dxdhd.com/", "dxd"],
+      ["digitalcore", "https://digitalcore.club/", "digc"]
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
