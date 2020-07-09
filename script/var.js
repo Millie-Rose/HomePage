@@ -85,7 +85,7 @@ var favorites = [
     [
       ["amazon" , "https://smile.amazon.com/", "amz"],
       ["ebay" , "https://www.ebay.com/", "bay"],
-      ["wish" , "https://www.wish.com/" , "wsh"],
+      ["etsy" , "https://www.etsy.com/" , "ets"],
       ["aliexpress" , "https://www.aliexpress.com/" , "ali"],
       ["isthereanydeal" , "https://isthereanydeal.com/", "itd"]
     ]
@@ -98,7 +98,7 @@ var favorites = [
       ["privatehd", "https://privatehd.to/", "phd"],
       ["blutopia", "https://blutopia.xyz/", "blu"],
       ["dxdhd", "https://dxdhd.com/", "dxd"],
-      ["digitalcore", "https://digitalcore.club/", "digc"]
+      ["digitalcore", "https://digitalcore.club/", "dgc"],
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
@@ -106,7 +106,8 @@ var favorites = [
       ["bmbf", "192.168.1.60:50000/", "bmbf"],
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
       ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
-      ["darksoft", "https://forum.darksoftware.net/forums/", "dks"]
+      ["darksoft", "https://forum.darksoftware.net/forums/", "dks"],
+      ["gbatemp", "https://gbatemp.net/forums/", "gba"],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -114,6 +115,7 @@ var favorites = [
       ["plex", "https://app.plex.tv/desktop", "plx"],
       ["myanimelist", "https://myanimelist.net/", "mal"],
       ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
+      ["twitch", "https://www.twitch.tv/", "ttv"],
     ]
   ],
   [ "その他"+"<br>"+"Others",
