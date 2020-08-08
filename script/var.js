@@ -99,6 +99,7 @@ var favorites = [
       ["blutopia", "https://blutopia.xyz/", "blu"],
       ["dxdhd", "https://dxdhd.com/", "dxd"],
       ["digitalcore", "https://digitalcore.club/", "dgc"],
+      ["myanonamouse", "https://www.myanonamouse.net/", "mam"],
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
