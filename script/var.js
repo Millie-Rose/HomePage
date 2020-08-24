@@ -104,9 +104,8 @@ var favorites = [
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
     [
-      ["bmbf", "192.168.1.60:50000/", "bmbf"],
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
-      ["astats", "https://astats.astats.nl/astats/User_Info.php?SteamID64=76561198031451841", "ast"],
+      ["exophase", "https://www.exophase.com/steam/user/lewd-/", "exo"],
       ["darksoft", "https://forum.darksoftware.net/forums/", "dks"],
       ["gbatemp", "https://gbatemp.net/forums/", "gba"],
     ]
