@@ -108,6 +108,7 @@ var favorites = [
       ["exophase", "https://www.exophase.com/steam/user/lewd-/", "exo"],
       ["darksoft", "https://forum.darksoftware.net/forums/", "dks"],
       ["gbatemp", "https://gbatemp.net/forums/", "gba"],
+      ["appeal", "https://forum.achievementhunting.com/viewforum.php?f=3", "ach"],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
