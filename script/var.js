@@ -105,7 +105,7 @@ var favorites = [
   [ "ゲーミング"+"<br>"+"Gaming",
     [
       ["steammatch", "https://www.steamtradematcher.com/", "sm"],
-      ["exophase", "https://www.exophase.com/steam/user/lewd-/", "exo"],
+      ["exophase", "https://www.exophase.com/user/Milky/", "exo"],
       ["darksoft", "https://forum.darksoftware.net/forums/", "dks"],
       ["gbatemp", "https://gbatemp.net/forums/", "gba"],
       ["appeal", "https://forum.achievementhunting.com/viewforum.php?f=3", "ach"],
