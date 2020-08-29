@@ -87,7 +87,8 @@ var favorites = [
       ["ebay" , "https://www.ebay.com/", "bay"],
       ["etsy" , "https://www.etsy.com/" , "ets"],
       ["aliexpress" , "https://www.aliexpress.com/" , "ali"],
-      ["isthereanydeal" , "https://isthereanydeal.com/", "itd"]
+      ["isthereanydeal" , "https://isthereanydeal.com/", "itd"],
+      ["fasttech" , "https://www.fasttech.com/", "fst"]
     ]
   ],
   [ "トラッカー"+"<br>"+"Trackers",
