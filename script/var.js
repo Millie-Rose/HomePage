@@ -4,9 +4,9 @@
 var username = "Millie";
 var kanji = "ミリー";
 var images = [
-//  "01.png",
-//  "02.png",
-//  "03.png",
+  "01.png",
+  "02.png",
+  "03.png",
   "04.png",
   "05.png",
   "06.png",
@@ -14,7 +14,7 @@ var images = [
   "08.png",
   "09.png",
   "10.png",
-//  "11.png",
+  "11.png",
   "12.png",
   "13.png",
   "14.png",
@@ -32,7 +32,7 @@ var images = [
   "26.png",
   "27.png",
   "28.png",
-//  "29.png",
+  "29.png",
   "30.png",
   "31.png",
   "32.png",
@@ -48,7 +48,7 @@ var images = [
   "42.png",
   "43.png",
   "44.png",
-//  "45.png",
+  "45.png",
   "46.png",
   "47.png",
   "48.png",
@@ -65,6 +65,20 @@ var images = [
   "59.png",
   "60.png",
   "61.png",
+  "62.png",
+  "63.png",
+  "64.png",
+  "65.png",
+  "66.png",
+  "67.png",
+  "68.png",
+  "69.png",
+  "70.png",
+  "71.png",
+  "72.png",
+  "73.png",
+  "74.png",
+  "75.png",
 ];
 var searchs = [
   ["!g", "https://www.google.com/#q="],
@@ -74,59 +88,58 @@ var searchs = [
 var favorites = [
   [ "しゃかいてき"+"<br>"+"Social",
     [
-      ["4chan" , "https://boards.4channel.org/w/catalog", "4ch"],
-      ["twitter" , "https://twitter.com/home", "twt"],
-      ["steam" , "https://steamcommunity.com/id/lewd-/home/", "stm"],
-      ["reddit" , "https://www.reddit.com/", "rdt"],
-      ["gmail" , "https://mail.google.com/", "gml"]
+      ["4chan" , "https://boards.4channel.org/w/catalog", ""],
+      ["twitter" , "https://twitter.com/home", ""],
+      ["steam" , "https://steamcommunity.com/id/lewd-/home/", ""],
+      ["reddit" , "https://www.reddit.com/", ""],
+      ["gmail" , "https://mail.google.com/", ""]
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",
     [
-      ["amazon" , "https://smile.amazon.com/", "amz"],
-      ["ebay" , "https://www.ebay.com/", "bay"],
-      ["etsy" , "https://www.etsy.com/" , "ets"],
-      ["aliexpress" , "https://www.aliexpress.com/" , "ali"],
-      ["isthereanydeal" , "https://isthereanydeal.com/", "itd"],
-      ["fasttech" , "https://www.fasttech.com/", "fst"]
+      ["amazon" , "https://smile.amazon.com/", ""],
+      ["ebay" , "https://www.ebay.com/", ""],
+      ["etsy" , "https://www.etsy.com/" , ""],
+      ["aliexpress" , "https://www.aliexpress.com/" , ""],
+      ["isthereanydeal" , "https://isthereanydeal.com/", ""],
+      ["fasttech" , "https://www.fasttech.com/", ""]
     ]
   ],
   [ "トラッカー"+"<br>"+"Trackers",
     [
-      ["animez", "https://animetorrents.me/", "at"],
-      ["pornbay", "https://pornbay.org/index.php", "pb"],
-      ["torrentleech", "https://www.torrentleech.org", "tl"],
-      ["privatehd", "https://privatehd.to/", "phd"],
-      ["blutopia", "https://blutopia.xyz/", "blu"],
-      ["dxdhd", "https://dxdhd.com/", "dxd"],
-      ["digitalcore", "https://digitalcore.club/", "dgc"],
-      ["myanonamouse", "https://www.myanonamouse.net/", "mam"],
+      ["animez", "https://animetorrents.me/", ""],
+      ["pornbay", "https://pornbay.org/index.php", ""],
+      ["torrentleech", "https://www.torrentleech.org", ""],
+      ["privatehd", "https://privatehd.to/", ""],
+      ["blutopia", "https://blutopia.xyz/", ""],
+      ["dxdhd", "https://dxdhd.com/", ""],
+      ["digitalcore", "https://digitalcore.club/", ""],
+      ["myanonamouse", "https://www.myanonamouse.net/", ""],
     ]
   ],
   [ "ゲーミング"+"<br>"+"Gaming",
     [
-      ["steammatch", "https://www.steamtradematcher.com/", "sm"],
-      ["exophase", "https://www.exophase.com/user/Milky/", "exo"],
-      ["darksoft", "https://forum.darksoftware.net/forums/", "dks"],
-      ["gbatemp", "https://gbatemp.net/forums/", "gba"],
-      ["appeal", "https://forum.achievementhunting.com/viewforum.php?f=3", "ach"],
+      ["steammatch", "https://www.steamtradematcher.com/", ""],
+      ["exophase", "https://www.exophase.com/user/Milky/", ""],
+      ["steamhunters", "https://steamhunters.com/id/lewd-/games", ""],
+      ["completionist.me", "https://completionist.me/", ""],
+      ["gbatemp", "https://gbatemp.net/forums/", ""],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
     [
-      ["plex", "https://app.plex.tv/desktop", "plx"],
-      ["myanimelist", "https://myanimelist.net/", "mal"],
-      ["youtube", "https://www.youtube.com/feed/subscriptions", "yt"],
-      ["twitch", "https://www.twitch.tv/", "ttv"],
+      ["plex", "https://app.plex.tv/desktop", ""],
+      ["myanimelist", "https://myanimelist.net/", ""],
+      ["youtube", "https://www.youtube.com/feed/subscriptions", ""],
+      ["twitch", "https://www.twitch.tv/", ""],
     ]
   ],
   [ "その他"+"<br>"+"Others",
     [
-      ["files", "https://files.millie.moe/", "file"],
-      ["myfigurecollection" , "https://myfigurecollection.net/" , "mfc"],
-      ["sadpanda", "https://e-hentai.org/", "sad"],
-      ["paste", "https://wutsdis.com/paste/", "pst"],
-      ["github", "https://github.com/", "git"],
+      ["myfigurecollection" , "https://myfigurecollection.net/" , ""],
+      ["sadpanda", "https://e-hentai.org/", ""],
+      ["paste", "https://wutsdis.com/paste/", ""],
+      ["darksoft", "https://forum.darksoftware.net/forums/", ""],
     ]
   ]
 ];
