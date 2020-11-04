@@ -41,7 +41,7 @@ function init() {
 }
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'css/particles.json', function() {
+tsParticles.loadJSON('particles-js', 'css/particles.json').then(function() {
   canvas = document.getElementById('large-header');
   console.log('callback - particles.js config loaded');
 });

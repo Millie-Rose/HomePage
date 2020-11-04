@@ -67,6 +67,7 @@
       }
     }
   },
+  "fpsLimit": 60,
   "interactivity": {
     "detect_on": "window",
     "events": {

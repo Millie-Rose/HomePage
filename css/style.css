@@ -570,7 +570,7 @@ section.right-pannel {
 #greetings-board p.greetings-weather .weather-max,
 #greetings-board p.greetings-weather .weather-min {
     color: var(--main-text-color);
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
     mix-blend-mode: var(--main-text-blend-mode) !important;
 }
 
