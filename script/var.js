@@ -30,7 +30,7 @@ var images = [
   "24.png",
   "25.png",
   "26.png",
-/* "27.png",
+ "27.png",
   "28.png",
   "29.png",
   "30.png",
@@ -45,7 +45,7 @@ var images = [
   "39.png",
   "40.png",
   "41.png",
-  "42.png",
+/*  "42.png",
   "43.png",
   "44.png",
   "45.png",
@@ -81,7 +81,7 @@ var images = [
   "75.png", */
 ];
 var searchs = [
-  ["!g", "https://www.google.com/#q="],
+  ["!g", "https://www.google.com/search?q="],
   ["!d", "https://duckduckgo.com/?q="],
   ["!u", "https://"],
 ];
@@ -100,9 +100,10 @@ var favorites = [
       ["amazon" , "https://smile.amazon.com/", ""],
       ["ebay" , "https://www.ebay.com/", ""],
       ["etsy" , "https://www.etsy.com/" , ""],
-      ["aliexpress" , "https://www.aliexpress.com/" , ""],
+//      ["aliexpress" , "https://www.aliexpress.com/" , ""],
       ["isthereanydeal" , "https://isthereanydeal.com/", ""],
-      ["fasttech" , "https://www.fasttech.com/", ""]
+      ["fasttech" , "https://www.fasttech.com/", ""],
+      ["3fvape" , "https://www.3fvape.com/", ""]
     ]
   ],
   [ "トラッカー"+"<br>"+"Trackers",
@@ -112,8 +113,8 @@ var favorites = [
       ["torrentleech", "https://www.torrentleech.org", ""],
       ["privatehd", "https://privatehd.to/", ""],
       ["blutopia", "https://blutopia.xyz/", ""],
-      ["dxdhd", "https://dxdhd.com/", ""],
-      ["digitalcore", "https://digitalcore.club/", ""],
+//      ["dxdhd", "https://dxdhd.com/", ""],
+//      ["digitalcore", "https://digitalcore.club/", ""],
       ["myanonamouse", "https://www.myanonamouse.net/", ""],
     ]
   ],
@@ -123,7 +124,8 @@ var favorites = [
       ["exophase", "https://www.exophase.com/user/Milky/", ""],
       ["steamhunters", "https://steamhunters.com/id/lewd-/games", ""],
       ["completionist.me", "https://completionist.me/", ""],
-      // ["gbatemp", "https://gbatemp.net/forums/", ""],
+//      ["nexusmods", "https://www.nexusmods.com/skyrimspecialedition", ""],
+//      ["gbatemp", "https://gbatemp.net/forums/", ""],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -137,7 +139,7 @@ var favorites = [
   [ "その他"+"<br>"+"Others",
     [
       ["myfigurecollection" , "https://myfigurecollection.net/" , ""],
-      ["sadpanda", "https://e-hentai.org/", ""],
+      ["sadpanda", "https://exhentai.org/", ""],
       ["paste", "https://wutsdis.com/paste/", ""],
       ["darksoft", "https://forum.darksoftware.net/forums/", ""],
     ]
