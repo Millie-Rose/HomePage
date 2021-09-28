@@ -41,10 +41,11 @@ function init() {
 }
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-tsParticles.loadJSON('particles-js', 'css/particles.json').then(function() {
+
+/* tsParticles.loadJSON('particles-js', 'css/particles.json').then(function() {
   canvas = document.getElementById('large-header');
   console.log('callback - particles.js config loaded');
-});
+}); */
 
 // Terminal initialisation
 function initTerminal() {
@@ -203,7 +204,7 @@ function initSize() {
 
   var mxHeight = 0;
   $("#favorites-board .favorite").each(function(index, elem){
-     if(mxHeight <= $(elem).height())
+    if(mxHeight <= $(elem).height())
         mxHeight = $(elem).height();
   });
   $("#favorites-board .favorite").height(mxHeight);

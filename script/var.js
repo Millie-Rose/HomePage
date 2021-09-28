@@ -30,7 +30,7 @@ var images = [
   "24.png",
   "25.png",
   "26.png",
- "27.png",
+  "27.png",
   "28.png",
   "29.png",
   "30.png",
@@ -45,7 +45,8 @@ var images = [
   "39.png",
   "40.png",
   "41.png",
-/*  "42.png",
+  /*
+  "42.png",
   "43.png",
   "44.png",
   "45.png",
@@ -78,12 +79,15 @@ var images = [
   "72.png",
   "73.png",
   "74.png",
-  "75.png", */
+  "75.png", 
+  */
 ];
 var searchs = [
   ["!g", "https://www.google.com/search?q="],
   ["!d", "https://duckduckgo.com/?q="],
   ["!u", "https://"],
+  ["!b", "https://danbooru.donmai.us/posts?tags="],
+  ["!s", "https://saucenao.com/search.php?url="],
 ];
 var favorites = [
   [ "しゃかいてき"+"<br>"+"Social",
@@ -92,7 +96,7 @@ var favorites = [
       ["twitter" , "https://twitter.com/home", ""],
       ["steam" , "https://steamcommunity.com/id/lewd-/home/", ""],
       ["reddit" , "https://www.reddit.com/", ""],
-      ["gmail" , "https://mail.google.com/", ""]
+      ["gmail" , "https://mail.google.com/", ""],
     ]
   ],
   [ "ショッピング"+"<br>"+"Shopping",
@@ -100,7 +104,7 @@ var favorites = [
       ["amazon" , "https://smile.amazon.com/", ""],
       ["ebay" , "https://www.ebay.com/", ""],
       ["etsy" , "https://www.etsy.com/" , ""],
-//      ["aliexpress" , "https://www.aliexpress.com/" , ""],
+      //["aliexpress" , "https://www.aliexpress.com/" , ""],
       ["isthereanydeal" , "https://isthereanydeal.com/", ""],
       ["fasttech" , "https://www.fasttech.com/", ""],
       ["3fvape" , "https://www.3fvape.com/", ""]
@@ -113,8 +117,8 @@ var favorites = [
       ["torrentleech", "https://www.torrentleech.org", ""],
       ["privatehd", "https://privatehd.to/", ""],
       ["blutopia", "https://blutopia.xyz/", ""],
-//      ["dxdhd", "https://dxdhd.com/", ""],
-//      ["digitalcore", "https://digitalcore.club/", ""],
+      //["dxdhd", "https://dxdhd.com/", ""],
+      //["digitalcore", "https://digitalcore.club/", ""],
       ["myanonamouse", "https://www.myanonamouse.net/", ""],
     ]
   ],
@@ -124,8 +128,8 @@ var favorites = [
       ["exophase", "https://www.exophase.com/user/Milky/", ""],
       ["steamhunters", "https://steamhunters.com/id/lewd-/games", ""],
       ["completionist.me", "https://completionist.me/", ""],
-//      ["nexusmods", "https://www.nexusmods.com/skyrimspecialedition", ""],
-//      ["gbatemp", "https://gbatemp.net/forums/", ""],
+      //["nexusmods", "https://www.nexusmods.com/skyrimspecialedition", ""],
+      //["gbatemp", "https://gbatemp.net/forums/", ""],
     ]
   ],
   [ "ビデオ"+"<br>"+"Video",
@@ -141,7 +145,8 @@ var favorites = [
       ["myfigurecollection" , "https://myfigurecollection.net/" , ""],
       ["sadpanda", "https://exhentai.org/", ""],
       ["paste", "https://wutsdis.com/paste/", ""],
-      ["darksoft", "https://forum.darksoftware.net/forums/", ""],
+      ["danbooru", "https://danbooru.donmai.us/posts", ""],
+      ["saucenao" , "https://saucenao.com/", ""]
     ]
   ]
 ];
