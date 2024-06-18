@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their names are explicit
 
-var username = "Millie";
+var username = "Emilia";
 var kanji = "ミリー";
 var images = [
   "01.png",
@@ -143,9 +143,8 @@ var favorites = [
   [ "その他"+"<br>"+"Others",
     [
       ["myfigurecollection" , "https://myfigurecollection.net/" , ""],
-      ["sadpanda", "https://exhentai.org/", ""],
-      ["paste", "https://wutsdis.com/paste/", ""],
-      ["danbooru", "https://danbooru.donmai.us/posts", ""],
+      ["voice", "https://app.genderfluentapp.com/", ""],
+      ["flipper", "https://flipper-xtre.me/", ""],
       ["saucenao" , "https://saucenao.com/", ""]
     ]
   ]
